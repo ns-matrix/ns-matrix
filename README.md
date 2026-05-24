@@ -129,8 +129,8 @@
 ###
 
 <div align="center">
-  <h4 align="center">Thank you for visiting my profile! ✨</h4>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=ns-matrix.ns-matrix&"  />
+  <h4 align="center">Thank you for visiting my profile! ✨</h4>
 </div>
 
 ###
