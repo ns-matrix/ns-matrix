@@ -104,12 +104,11 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=ns-matrix.ns-matrix&"  />
   <br>
   <p align="center"><b>Thank you for visiting my profile! ✨</b></p>
-
- 
-<div align="center">
+  
+  <a href="https://github.com/ns-matrix/ns-matrix/stargazers" target="_blank">
+    <img src="https://img.shields.io/github/stars/ns-matrix/ns-matrix?style=for-the-badge&logo=github&color=ffca28&label=Likes%20(Stars)" alt="Likes" />
+  </a>
   <a href="https://github.com/ns-matrix/ns-matrix/issues/1" target="_blank">
     <img src="https://img.shields.io/badge/Sign_My_Guestbook-0066ff?style=for-the-badge&logo=github&logoColor=white" alt="Sign my Guestbook" />
   </a>
-</div>
-  
 </div>
