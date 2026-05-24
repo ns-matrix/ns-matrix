@@ -107,8 +107,8 @@
 
  
 <div align="center">
-  <a href="https://github.com/ns-matrix/ns-matrix/issues/1="_blank">
-    <img src="https://img.shields.io/badge/📝-Sign_My_Guestbook!-blue?style=for-the-badge" alt="Sign my Guestbook" />
+  <a href="https://github.com/ns-matrix/ns-matrix/issues/1" target="_blank">
+    <img src="https://img.shields.io/badge/Sign_My_Guestbook-0066ff?style=for-the-badge&logo=github&logoColor=white" alt="Sign my Guestbook" />
   </a>
 </div>
   
