@@ -134,6 +134,10 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=ns-matrix.ns-matrix&"  />
 </div>
 
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=jwenjian.visitor-badge&left_text=Views&left_color=%23595959&right_color=%231283c3&format=true&"  />
+</div>
+
 ###
 
 
