@@ -1,4 +1,3 @@
-
 <h1 align="left">Hey 👋 What's up?</h1>
 
 ###
@@ -122,23 +121,16 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
-  <a href="ns077751@gmail.com" target="_blank">
+  <a href="mailto:ns077751@gmail.com" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
   </a>
 </div>
 
 ###
 
-
 <div align="center">
+  <h4 align="center">Thank you for visiting my profile! ✨</h4>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=ns-matrix.ns-matrix&"  />
 </div>
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=jwenjian.visitor-badge&left_text=Views&left_color=%23595959&right_color=%231283c3&format=true&"  />
-</div>
-
 ###
-
-
-
