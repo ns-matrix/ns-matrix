@@ -1,6 +1,6 @@
 <h3 align="left"><b>Hey 👋 What's up?</b></h3>
 
-<p align="left">My name is Nitin Kumar Singh and I'm a B.Sc Data Science Student & Aspiring Machine Learning Engineer from Mumbai, India 🇮🇳</p>
+<p align="left">My name is Singh Nitin Kumar Chakradhar Radha and I'm a B.Sc Data Science Student & Aspiring Machine Learning Engineer from Mumbai, India 🇮🇳</p>
 
 <h3 align="left"><b># About me</b></h3>
 
