@@ -1,40 +1,16 @@
-<h1 align="left">Hey 👋 What's up?</h1>
-
-###
-
-<br clear="both">
+<h3 align="left"><b>Hey 👋 What's up?</b></h3>
 
 <p align="left">My name is Nitin Kumar Singh and I'm a B.Sc Data Science Student & Aspiring Machine Learning Engineer from Mumbai, India 🇮🇳</p>
 
-###
+<h3 align="left"><b># About me</b></h3>
 
-<br clear="both">
-
-<h2 align="left"># About me</h2>
-
-###
-
-<br clear="both">
-
-<p align="left">✨ Building Data Science & AI projects since 2024  <br>📚 I'm currently learning Machine Learning, Deep Learning & Advanced Data Analytics  <br>🎯 Goals: Become an AI Engineer and build impactful real-world AI systems  <br>🎲 Fun fact: I started digitizing municipal school records and now I love solving real-world problems using data</p>
-
-###
+<p align="left">✨ Building Data Science & AI projects since 2024 <br>📚 I'm currently learning Machine Learning, Deep Learning & Advanced Data Analytics <br>🎯 Goals: Become an AI Engineer and build impactful real-world AI systems <br>🎲 Fun fact: I started digitizing municipal school records and now I love solving real-world problems using data</p>
 
 <h3 align="left">🚀 Current Focus</h3>
 
-###
-
-<br clear="both">
-
 <p align="left">📊 E-Commerce Sales & Customer Analytics Using Machine Learning<br>🤖 Real-Time Computer Vision & Object Detection Projects<br>🧠 Predictive Analytics using Python & Scikit-Learn<br>📈 Data Visualization using Power BI & Excel<br>🗄️ SQL-based Data Analysis Projects</p>
 
-###
-
-<br clear="both">
-
-<h4 align="left">💻 Tech Stack</h4>
-
-###
+<h3 align="left">💻 Tech Stack</h3>
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
@@ -110,11 +86,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
 </div>
 
-###
-
-<h4 align="left">🌐 Connect with me</h4>
-
-###
+<h3 align="left">🌐 Connect with me</h3>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/singh-nitin-kumar-chakradhar-radha-339210262/" target="_blank">
@@ -126,11 +98,10 @@
   </a>
 </div>
 
-###
+<br>
 
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=ns-matrix.ns-matrix&"  />
-  <h4 align="center">Thank you for visiting my profile! ✨</h4>
+  <br>
+  <p align="center"><b>Thank you for visiting my profile! ✨</b></p>
 </div>
-
-###
