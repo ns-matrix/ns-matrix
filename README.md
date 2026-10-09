@@ -97,6 +97,7 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
   </a>
 </div>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fc94b54e-3875-460f-92f1-f2af51518166/deploy-status)](https://app.netlify.com/projects/nx-matrix-portfolio/deploys)
 
 <br>
 
