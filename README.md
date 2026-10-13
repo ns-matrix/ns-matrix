@@ -1,8 +1,4 @@
 
-<p align="center">
-  [![Netlify Status](https://api.netlify.com/api/v1/badges/fc94b54e-3875-460f-92f1-f2af51518166/deploy-status)](https://app.netlify.com/projects/nx-matrix-portfolio/deploys)
-</p>
-
 <h3 align="left"><b>Hey 👋 What's up?</b></h3>
 
 <p align="left">My name is Singh Nitin Kumar Chakradhar Radha and I'm a B.Sc Data Science Student & Aspiring Machine Learning Engineer from Mumbai, India 🇮🇳</p>
