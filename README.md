@@ -102,6 +102,15 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
   </a>
 </div>
+## Netlify deployment status
+
+These live badges track the latest deployment for each Netlify project. Each badge links to that project's deployment history.
+
+- **nx-matrix-portfolio**: [![nx-matrix-portfolio Netlify Status](https://api.netlify.com/api/v1/badges/fc94b54e-3875-460f-92f1-f2af51518166/deploy-status)](https://app.netlify.com/projects/nx-matrix-portfolio/deploys)
+- **zippy-phoenix-855a19**: [![zippy-phoenix-855a19 Netlify Status](https://api.netlify.com/api/v1/badges/bcf57d96-3fb9-43ba-b542-9d6cbef3203d/deploy-status)](https://app.netlify.com/projects/zippy-phoenix-855a19/deploys)
+- **ns-matrix-personaplex7b-4-bit**: [![ns-matrix-personaplex7b-4-bit Netlify Status](https://api.netlify.com/api/v1/badges/fb4a2924-6fbd-4ccd-878a-a0d31148d6a1/deploy-status)](https://app.netlify.com/projects/ns-matrix-personaplex7b-4-bit/deploys)
+- **ns-matrix-project-showcase**: [![ns-matrix-project-showcase Netlify Status](https://api.netlify.com/api/v1/badges/b5b4b234-d01b-4fe5-8115-c00ad06d892f/deploy-status)](https://app.netlify.com/projects/ns-matrix-project-showcase/deploys)
+
 
 <br>
 
