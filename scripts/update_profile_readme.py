@@ -29,8 +29,8 @@ def get_repos():
     repos = api_json(f"{API}/users/{OWNER}/repos?per_page=100&sort=updated&type=owner")
     return [
         repo for repo in repos
-        if repo.get("name") != OWNER and not repo.get("fork", False)
-        and not repo.get("archived", False)
+        if repo.get("name") != OWNER and not repo.get("private", False)
+        and not repo.get("fork", False) and not repo.get("archived", False)
     ]
 
 def safe(text):
