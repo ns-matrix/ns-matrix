@@ -91,7 +91,6 @@ This section aggregates GitHub's language-byte statistics across my public, non-
 
 _Based on GitHub language-byte statistics for 10 public, non-fork, non-archived repositories. Code share is not a measure of developer proficiency._
 <!-- AUTO:TECH_HUB:END -->
-<!-- AUTO:TECH_HUB:END -->
 
 ## Engineering toolkit
 
