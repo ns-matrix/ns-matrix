@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=170&color=0:03120A,50:062615,100:03120A&text=NITIN%20SINGH&fontColor=00FF66&fontSize=48&fontAlignY=42&desc=DATA%20SCIENCE%20%7C%20AI%20%26%20ML%20%7C%20SOFTWARE%20ENGINEERING&descAlignY=68&descSize=14&animation=fadeIn" width="100%" alt="Nitin Singh — Data Science, AI and Software Engineering" />
+<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-header.svg" width="100%" alt="Nitin Singh — Data Science, AI and Software Engineering" />
 
 <br/>
 
@@ -138,7 +138,7 @@ Open to connecting with developers, data professionals, and people building usef
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:03120A,50:063018,100:03120A&section=footer&fontColor=00FF66" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-footer.svg" width="100%" alt="NX Matrix — Building, learning, shipping" />
 
 **`[ SYSTEM STATUS ] BUILDING · LEARNING · SHIPPING `**
 
