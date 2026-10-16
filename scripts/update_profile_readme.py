@@ -91,11 +91,19 @@ def recent_repositories(repos):
     return "\n".join(rows) if recent else "_No public repositories were returned by GitHub._"
 
 
-def latest_created_project(repos):
-    """Create a compact promotional card for only the newest-created public repo."""
-    if not repos:
+def get_latest_created_project():
+    """Fetch complete repository metadata, then select the newest-created eligible repo."""
+    full_repos = []
+    for repo in get_repos():
+        try:
+            detail = api_json(f"{API}/repos/{OWNER}/{repo['name']}")
+            if not detail.get("private", False) and not detail.get("fork", False) and not detail.get("archived", False):
+                full_repos.append(detail)
+        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError):
+            continue
+    if not full_repos:
         return "_No public repositories were returned by GitHub._"
-    newest = max(repos, key=lambda repo: repo.get("created_at") or "")
+    newest = max(full_repos, key=lambda repo: repo.get("created_at") or "")
     name = safe(newest.get("name"))
     description = safe(newest.get("description") or "A new repository in progress. Open the repository to explore its current code and implementation.")
     url = newest.get("html_url", f"https://github.com/{OWNER}/{newest['name']}")
@@ -220,7 +228,7 @@ def main():
         readme = file.read()
 
     readme = replace_section(readme, "RECENT_REPOS", recent_repositories(repos))
-    readme = replace_section(readme, "LATEST_PROJECT", latest_created_project(repos))
+    readme = replace_section(readme, "LATEST_PROJECT", get_latest_created_project())
     readme = replace_section(readme, "TECH_HUB", tech_hub(repos))
 
     with open(README, "w", encoding="utf-8", newline="\n") as file:
