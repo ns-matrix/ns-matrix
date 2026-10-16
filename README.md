@@ -36,6 +36,14 @@ This profile is the engineering view of that journey: technologies I work with, 
 - **Data science:** Python, data analysis, machine learning experiments, and analytics.
 - **Automation:** browser extensions, reusable workflows, verification, and MCP integrations.
 
+## Latest project drop
+
+This featured card is generated from GitHub repository metadata. It automatically highlights only the **newest-created public repository** and refreshes with the profile analytics workflow.
+
+<!-- AUTO:LATEST_PROJECT:START -->
+_The latest-created repository will appear here after the profile refresh runs._
+<!-- AUTO:LATEST_PROJECT:END -->
+
 ## Recently active repositories
 
 The table below is refreshed automatically from the GitHub API, ordered by the latest repository push. It is intended to show what has been active recently, not to replace the project showcase.
@@ -58,20 +66,8 @@ The table below is refreshed automatically from the GitHub API, ordered by the l
 This section aggregates GitHub's language-byte statistics across my public, non-fork, non-archived repositories. It updates automatically alongside the recent-repository table. Percentages indicate the share of detected code volume, **not skill level or proficiency**.
 
 <!-- AUTO:TECH_HUB:START -->
-| Language | Share | Visual distribution | Repositories |
-|---|---:|:---|---:|
-| HTML | 76.9% | `███████████████░░░░░` | 8 |
-| JavaScript | 8.5% | `██░░░░░░░░░░░░░░░░░░` | 8 |
-| Python | 7.7% | `██░░░░░░░░░░░░░░░░░░` | 4 |
-| TypeScript | 3.8% | `█░░░░░░░░░░░░░░░░░░░` | 2 |
-| CSS | 2.1% | `█░░░░░░░░░░░░░░░░░░░` | 6 |
-| PLpgSQL | 0.7% | `█░░░░░░░░░░░░░░░░░░░` | 2 |
-| Batchfile | 0.1% | `█░░░░░░░░░░░░░░░░░░░` | 2 |
-| PowerShell | 0.1% | `█░░░░░░░░░░░░░░░░░░░` | 1 |
-| Shell | 0.0% | `█░░░░░░░░░░░░░░░░░░░` | 1 |
-| Dockerfile | 0.0% | `█░░░░░░░░░░░░░░░░░░░` | 1 |
-
-_Based on GitHub language-byte statistics for 10 public, non-fork, non-archived repositories. Code share is not a measure of developer proficiency._
+_The pie chart and language summary are generated automatically from GitHub language-byte data._
+<!-- AUTO:TECH_HUB:END -->
 <!-- AUTO:TECH_HUB:END -->
 
 ## Engineering toolkit
