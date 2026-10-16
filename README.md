@@ -40,14 +40,16 @@ This profile is the engineering view of that journey: technologies I work with, 
 The table below is refreshed automatically from the GitHub API, ordered by the latest repository push. It is intended to show what has been active recently, not to replace the project showcase.
 
 <!-- AUTO:RECENT_REPOS:START -->
-| Repository | Primary language | Last updated | Stars |
-|---|---|---:|---:|
-| [portfolio](https://github.com/ns-matrix/portfolio) | HTML | 2026-10-16 | 0 |
-| [nxmatrix-teams-ai](https://github.com/ns-matrix/nxmatrix-teams-ai) | Python | 2026-10-15 | 0 |
-| [axiom-linkedin-ai](https://github.com/ns-matrix/axiom-linkedin-ai) | Python | 2026-10-13 | 0 |
-| [codeguard-ai](https://github.com/ns-matrix/codeguard-ai) | Python | 2026-09-23 | 0 |
-| [RETAIL](https://github.com/ns-matrix/RETAIL) | JavaScript | 2026-08-30 | 0 |
-| [petal-rush](https://github.com/ns-matrix/petal-rush) | HTML | 2026-08-08 | 1 |
+| Repository | Language | Created | Latest push | Stars |
+|---|---|---:|---:|---:|
+| [portfolio](https://github.com/ns-matrix/portfolio) | HTML | 2026-09-10 | 2026-10-16 | 0 |
+| [nxmatrix-teams-ai](https://github.com/ns-matrix/nxmatrix-teams-ai) | Python | 2026-10-15 | 2026-10-15 | 0 |
+| [axiom-linkedin-ai](https://github.com/ns-matrix/axiom-linkedin-ai) | Python | 2026-10-13 | 2026-10-13 | 0 |
+| [codeguard-ai](https://github.com/ns-matrix/codeguard-ai) | Python | 2026-09-23 | 2026-09-23 | 0 |
+| [RETAIL](https://github.com/ns-matrix/RETAIL) | JavaScript | 2026-08-30 | 2026-08-30 | 0 |
+| [petal-rush](https://github.com/ns-matrix/petal-rush) | HTML | 2026-03-17 | 2026-08-08 | 1 |
+| [Project](https://github.com/ns-matrix/Project) | Python | 2026-04-02 | 2026-06-02 | 0 |
+| [AMBIEANT-MUSIC](https://github.com/ns-matrix/AMBIEANT-MUSIC) | HTML | 2026-05-05 | 2026-05-05 | 0 |
 <!-- AUTO:RECENT_REPOS:END -->
 
 ## Tech hub · detected code distribution
@@ -55,18 +57,20 @@ The table below is refreshed automatically from the GitHub API, ordered by the l
 This section aggregates GitHub's language-byte statistics across my public, non-fork, non-archived repositories. It updates automatically alongside the recent-repository table. Percentages indicate the share of detected code volume, **not skill level or proficiency**.
 
 <!-- AUTO:TECH_HUB:START -->
-| Language | Share of detected code | Repositories using it |
-|---|---:|---:|
-| HTML | 76.9% | 8 |
-| JavaScript | 8.5% | 8 |
-| Python | 7.7% | 4 |
-| TypeScript | 3.8% | 2 |
-| CSS | 2.1% | 6 |
-| PLpgSQL | 0.7% | 2 |
-| Batchfile | 0.1% | 2 |
-| PowerShell | 0.1% | 1 |
+| Language | Code share | Distribution | Repositories |
+|---|---:|:---|---:|
+| HTML | 76.9% | `███████████████░░░░░` | 8 |
+| JavaScript | 8.5% | `██░░░░░░░░░░░░░░░░░░` | 8 |
+| Python | 7.7% | `██░░░░░░░░░░░░░░░░░░` | 4 |
+| TypeScript | 3.8% | `█░░░░░░░░░░░░░░░░░░░` | 2 |
+| CSS | 2.1% | `█░░░░░░░░░░░░░░░░░░░` | 6 |
+| PLpgSQL | 0.7% | `█░░░░░░░░░░░░░░░░░░░` | 2 |
+| Batchfile | 0.1% | `█░░░░░░░░░░░░░░░░░░░` | 2 |
+| PowerShell | 0.1% | `█░░░░░░░░░░░░░░░░░░░` | 1 |
+| Shell | 0.0% | `█░░░░░░░░░░░░░░░░░░░` | 1 |
+| Dockerfile | 0.0% | `█░░░░░░░░░░░░░░░░░░░` | 1 |
 
-_Computed from GitHub language-byte statistics for 10 non-fork, non-archived repositories returned by the API. This is code volume, not a measure of proficiency._
+_Calculated from GitHub language-byte statistics across 10 public, non-fork, non-archived repositories. This measures code volume, not developer proficiency._
 <!-- AUTO:TECH_HUB:END -->
 
 ## Engineering toolkit
