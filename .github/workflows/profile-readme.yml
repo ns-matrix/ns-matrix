@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 */6 * * *"
+    - cron: "7 6 * * 1"
   push:
     paths:
       - "README.md"
