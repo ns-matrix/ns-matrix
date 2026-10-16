@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Refresh dynamic repository and language sections in the ns-matrix profile README."""
+"""Refresh repository activity and a Markdown bar chart in the profile README."""
 import json
 import os
 import re
-import sys
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime
 
 OWNER = "ns-matrix"
 README = "README.md"
@@ -20,41 +19,56 @@ HEADERS = {
 if TOKEN:
     HEADERS["Authorization"] = f"Bearer {TOKEN}"
 
+
 def api_json(url):
     request = urllib.request.Request(url, headers=HEADERS)
     with urllib.request.urlopen(request, timeout=25) as response:
         return json.loads(response.read().decode("utf-8"))
 
+
 def get_repos():
     repos = api_json(f"{API}/users/{OWNER}/repos?per_page=100&sort=updated&type=owner")
     return [
         repo for repo in repos
-        if repo.get("name") != OWNER and not repo.get("private", False)
-        and not repo.get("fork", False) and not repo.get("archived", False)
+        if repo.get("name") != OWNER
+        and not repo.get("private", False)
+        and not repo.get("fork", False)
+        and not repo.get("archived", False)
     ]
 
-def safe(text):
-    return str(text or "").replace("|", "\\|").replace("\r", " ").replace("\n", " ").strip()
+
+def safe(value):
+    return str(value or "").replace("|", "\\|").replace("\r", " ").replace("\n", " ").strip()
+
+
+def repo_datetime(repo):
+    # pushed_at measures code activity; created_at helps show newly created repos.
+    return repo.get("pushed_at") or repo.get("created_at") or repo.get("updated_at") or ""
+
 
 def recent_repositories(repos):
-    recent = sorted(repos, key=lambda item: item.get("pushed_at") or item.get("updated_at") or "", reverse=True)[:6]
+    # Prioritize actual recent code pushes, but include freshly created repos with no pushes.
+    recent = sorted(repos, key=lambda item: repo_datetime(item), reverse=True)[:8]
     rows = [
-        "| Repository | Primary language | Last updated | Stars |",
-        "|---|---|---:|---:|",
+        "| Repository | Language | Created | Latest push | Stars |",
+        "|---|---|---:|---:|---:|",
     ]
     for repo in recent:
         name = safe(repo["name"])
         url = repo.get("html_url", f"https://github.com/{OWNER}/{repo['name']}")
         language = safe(repo.get("language") or "—")
-        pushed = repo.get("pushed_at") or repo.get("updated_at") or ""
         try:
-            updated = datetime.fromisoformat(pushed.replace("Z", "+00:00")).strftime("%Y-%m-%d")
+            created = datetime.fromisoformat(repo["created_at"].replace("Z", "+00:00")).strftime("%Y-%m-%d")
+        except (ValueError, TypeError, KeyError):
+            created = "—"
+        pushed = repo.get("pushed_at") or ""
+        try:
+            pushed = datetime.fromisoformat(pushed.replace("Z", "+00:00")).strftime("%Y-%m-%d") if pushed else "—"
         except (ValueError, TypeError):
-            updated = "—"
-        rows.append(f"| [{name}]({url}) | {language} | {updated} | {repo.get('stargazers_count', 0)} |")
-    if not recent:
-        return "_No public repositories were returned by the GitHub API._"
-    return "\n".join(rows)
+            pushed = "—"
+        rows.append(f"| [{name}]({url}) | {language} | {created} | {pushed} | {repo.get('stargazers_count', 0)} |")
+    return "\n".join(rows) if recent else "_No public repositories were returned by GitHub._"
+
 
 def tech_hub(repos):
     totals = {}
@@ -70,27 +84,34 @@ def tech_hub(repos):
 
     total_bytes = sum(totals.values())
     if not total_bytes:
-        return "_Language data is not available yet._"
+        return "_GitHub language statistics are unavailable at the moment._"
 
-    ranked = sorted(totals.items(), key=lambda item: item[1], reverse=True)[:8]
+    ranked = sorted(totals.items(), key=lambda item: item[1], reverse=True)[:10]
     rows = [
-        "| Language | Share of detected code | Repositories using it |",
-        "|---|---:|---:|",
+        "| Language | Code share | Distribution | Repositories |",
+        "|---|---:|:---|---:|",
     ]
     for language, count in ranked:
         pct = count / total_bytes * 100
-        rows.append(f"| {safe(language)} | {pct:.1f}% | {language_repos[language]} |")
+        blocks = max(1, round(pct / 5))
+        bar = "█" * blocks + "░" * (20 - blocks)
+        rows.append(f"| {safe(language)} | {pct:.1f}% | `{bar}` | {language_repos[language]} |")
     rows.append("")
-    rows.append(f"_Computed from GitHub language-byte statistics for {len(repos)} non-fork, non-archived repositories returned by the API. This is code volume, not a measure of proficiency._")
+    rows.append(
+        f"_Calculated from GitHub language-byte statistics across {len(repos)} public, non-fork, non-archived repositories. "
+        "This measures code volume, not developer proficiency._"
+    )
     return "\n".join(rows)
+
 
 def replace_section(readme, name, body):
     start = f"<!-- AUTO:{name}:START -->"
     end = f"<!-- AUTO:{name}:END -->"
     pattern = re.compile(re.escape(start) + r".*?" + re.escape(end), re.S)
     if not pattern.search(readme):
-        raise ValueError(f"Could not find marker pair for {name}")
+        raise ValueError(f"Missing README marker pair for {name}")
     return pattern.sub(lambda _: f"{start}\n{body}\n{end}", readme, count=1)
+
 
 def main():
     repos = get_repos()
@@ -101,6 +122,7 @@ def main():
     with open(README, "w", encoding="utf-8", newline="\n") as file:
         file.write(readme)
     print(f"Updated README from {len(repos)} public non-fork, non-archived repositories.")
+
 
 if __name__ == "__main__":
     main()
