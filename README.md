@@ -43,8 +43,10 @@ This featured card is generated from GitHub repository metadata. It automaticall
 <!-- AUTO:LATEST_PROJECT:START -->
 <table width="100%" border="0" cellpadding="12" cellspacing="0">
 <tr><td>
+<p><b>🆕 LATEST REPOSITORY</b></p>
 <h3><a href="https://github.com/ns-matrix/nxmatrix-teams-ai">🚀 nxmatrix-teams-ai</a></h3>
-<p>A new repository in progress. Open the repository to explore its current code and implementation.</p>
+<p>Connect Microsoft Teams-compatible chat to Ollama or an OpenAI-compatible AI model.</p>
+<ul><li>Receives chat activities through the Microsoft Teams SDK.</li><li>Sends prompts to a configurable language model API.</li><li>Supports local Ollama and compatible hosted API providers.</li></ul>
 <p><b>Primary language:</b> Python &nbsp; · &nbsp; <b>Created:</b> 2026-10-15 &nbsp; · &nbsp; <b>Latest push:</b> 2026-10-15</p>
 <p><a href="https://github.com/ns-matrix/nxmatrix-teams-ai">Explore the latest repository →</a></p>
 </td></tr></table>
