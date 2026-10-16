@@ -6,6 +6,7 @@ on:
     - cron: "17 */6 * * *"
   push:
     paths:
+      - "README.md"
       - "scripts/update_profile_readme.py"
       - ".github/workflows/profile-readme.yml"
 
