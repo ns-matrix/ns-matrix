@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh repository activity and a Markdown bar chart in the profile README."""
+"""Refresh dynamic repository, language analytics and a text-only activity feed."""
 import json
 import os
 import re
@@ -41,14 +41,21 @@ def safe(value):
     return str(value or "").replace("|", "\\|").replace("\r", " ").replace("\n", " ").strip()
 
 
-def repo_datetime(repo):
-    # pushed_at measures code activity; created_at helps show newly created repos.
+def parsed_date(value):
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00")).strftime("%Y-%m-%d")
+    except (ValueError, TypeError, AttributeError):
+        return "—"
+
+
+def repo_activity_date(repo):
+    # The GitHub API sorts repos by updated; prefer a real push where available.
     return repo.get("pushed_at") or repo.get("created_at") or repo.get("updated_at") or ""
 
 
 def recent_repositories(repos):
-    # Prioritize actual recent code pushes, but include freshly created repos with no pushes.
-    recent = sorted(repos, key=lambda item: repo_datetime(item), reverse=True)[:8]
+    # Keep active work near the top while ensuring newly created repos aren't lost.
+    recent = sorted(repos, key=repo_activity_date, reverse=True)[:8]
     rows = [
         "| Repository | Language | Created | Latest push | Stars |",
         "|---|---|---:|---:|---:|",
@@ -57,16 +64,12 @@ def recent_repositories(repos):
         name = safe(repo["name"])
         url = repo.get("html_url", f"https://github.com/{OWNER}/{repo['name']}")
         language = safe(repo.get("language") or "—")
-        try:
-            created = datetime.fromisoformat(repo["created_at"].replace("Z", "+00:00")).strftime("%Y-%m-%d")
-        except (ValueError, TypeError, KeyError):
-            created = "—"
-        pushed = repo.get("pushed_at") or ""
-        try:
-            pushed = datetime.fromisoformat(pushed.replace("Z", "+00:00")).strftime("%Y-%m-%d") if pushed else "—"
-        except (ValueError, TypeError):
-            pushed = "—"
-        rows.append(f"| [{name}]({url}) | {language} | {created} | {pushed} | {repo.get('stargazers_count', 0)} |")
+        created = parsed_date(repo.get("created_at"))
+        pushed = parsed_date(repo.get("pushed_at"))
+        rows.append(
+            f"| [{name}]({url}) | {language} | {created} | {pushed} | "
+            f"{repo.get('stargazers_count', 0)} |"
+        )
     return "\n".join(rows) if recent else "_No public repositories were returned by GitHub._"
 
 
@@ -88,18 +91,18 @@ def tech_hub(repos):
 
     ranked = sorted(totals.items(), key=lambda item: item[1], reverse=True)[:10]
     rows = [
-        "| Language | Code share | Distribution | Repositories |",
+        "| Language | Share | Visual distribution | Repositories |",
         "|---|---:|:---|---:|",
     ]
     for language, count in ranked:
         pct = count / total_bytes * 100
-        blocks = max(1, round(pct / 5))
+        blocks = min(20, max(1, round(pct / 5)))
         bar = "█" * blocks + "░" * (20 - blocks)
         rows.append(f"| {safe(language)} | {pct:.1f}% | `{bar}` | {language_repos[language]} |")
     rows.append("")
     rows.append(
-        f"_Calculated from GitHub language-byte statistics across {len(repos)} public, non-fork, non-archived repositories. "
-        "This measures code volume, not developer proficiency._"
+        f"_Based on GitHub language-byte statistics for {len(repos)} public, non-fork, non-archived repositories. "
+        "Code share is not a measure of developer proficiency._"
     )
     return "\n".join(rows)
 
@@ -117,8 +120,10 @@ def main():
     repos = get_repos()
     with open(README, "r", encoding="utf-8") as file:
         readme = file.read()
+
     readme = replace_section(readme, "RECENT_REPOS", recent_repositories(repos))
     readme = replace_section(readme, "TECH_HUB", tech_hub(repos))
+
     with open(README, "w", encoding="utf-8", newline="\n") as file:
         file.write(readme)
     print(f"Updated README from {len(repos)} public non-fork, non-archived repositories.")
