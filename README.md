@@ -57,7 +57,7 @@ The table below is refreshed automatically from the GitHub API, ordered by the l
 This section aggregates GitHub's language-byte statistics across my public, non-fork, non-archived repositories. It updates automatically alongside the recent-repository table. Percentages indicate the share of detected code volume, **not skill level or proficiency**.
 
 <!-- AUTO:TECH_HUB:START -->
-| Language | Code share | Distribution | Repositories |
+| Language | Share | Visual distribution | Repositories |
 |---|---:|:---|---:|
 | HTML | 76.9% | `███████████████░░░░░` | 8 |
 | JavaScript | 8.5% | `██░░░░░░░░░░░░░░░░░░` | 8 |
@@ -70,7 +70,7 @@ This section aggregates GitHub's language-byte statistics across my public, non-
 | Shell | 0.0% | `█░░░░░░░░░░░░░░░░░░░` | 1 |
 | Dockerfile | 0.0% | `█░░░░░░░░░░░░░░░░░░░` | 1 |
 
-_Calculated from GitHub language-byte statistics across 10 public, non-fork, non-archived repositories. This measures code volume, not developer proficiency._
+_Based on GitHub language-byte statistics for 10 public, non-fork, non-archived repositories. Code share is not a measure of developer proficiency._
 <!-- AUTO:TECH_HUB:END -->
 
 ## Engineering toolkit
