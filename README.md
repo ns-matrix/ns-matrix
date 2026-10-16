@@ -41,7 +41,13 @@ This profile is the engineering view of that journey: technologies I work with, 
 This featured card is generated from GitHub repository metadata. It automatically highlights only the **newest-created public repository** and refreshes with the profile analytics workflow.
 
 <!-- AUTO:LATEST_PROJECT:START -->
-_The latest-created repository will appear here after the profile refresh runs._
+<table width="100%" border="0" cellpadding="12" cellspacing="0">
+<tr><td>
+<h3><a href="https://github.com/ns-matrix/nxmatrix-teams-ai">🚀 nxmatrix-teams-ai</a></h3>
+<p>A new repository in progress. Open the repository to explore its current code and implementation.</p>
+<p><b>Primary language:</b> Python &nbsp; · &nbsp; <b>Created:</b> 2026-10-15 &nbsp; · &nbsp; <b>Latest push:</b> 2026-10-15</p>
+<p><a href="https://github.com/ns-matrix/nxmatrix-teams-ai">Explore the latest repository →</a></p>
+</td></tr></table>
 <!-- AUTO:LATEST_PROJECT:END -->
 
 ## Recently active repositories
@@ -66,7 +72,24 @@ The table below is refreshed automatically from the GitHub API, ordered by the l
 This section aggregates GitHub's language-byte statistics across my public, non-fork, non-archived repositories. It updates automatically alongside the recent-repository table. Percentages indicate the share of detected code volume, **not skill level or proficiency**.
 
 <!-- AUTO:TECH_HUB:START -->
-_The pie chart and language summary are generated automatically from GitHub language-byte data._
+<div align="center">
+<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />
+</div>
+
+| Language | Share | Repositories |
+|---|---:|---:|
+| HTML | 76.9% | 8 |
+| JavaScript | 8.5% | 8 |
+| Python | 7.7% | 4 |
+| TypeScript | 3.8% | 2 |
+| CSS | 2.1% | 6 |
+| PLpgSQL | 0.7% | 2 |
+| Batchfile | 0.1% | 2 |
+| PowerShell | 0.1% | 1 |
+| Shell | 0.0% | 1 |
+| Dockerfile | 0.0% | 1 |
+
+_Based on GitHub language-byte statistics for 10 public, non-fork, non-archived repositories. Code share is not a measure of developer proficiency._
 <!-- AUTO:TECH_HUB:END -->
 <!-- AUTO:TECH_HUB:END -->
 
