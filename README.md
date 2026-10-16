@@ -42,15 +42,15 @@ The table below is refreshed automatically from the GitHub API, ordered by the l
 
 <!-- AUTO:RECENT_REPOS:START -->
 | Repository | Language | Created | Latest push |
-|---|---|---:|---:|---:|
-| [portfolio](https://github.com/ns-matrix/portfolio) | HTML | 2026-09-10 | 2026-10-16 | 0 |
-| [nxmatrix-teams-ai](https://github.com/ns-matrix/nxmatrix-teams-ai) | Python | 2026-10-15 | 2026-10-15 | 0 |
-| [axiom-linkedin-ai](https://github.com/ns-matrix/axiom-linkedin-ai) | Python | 2026-10-13 | 2026-10-13 | 0 |
-| [codeguard-ai](https://github.com/ns-matrix/codeguard-ai) | Python | 2026-09-23 | 2026-09-23 | 0 |
-| [RETAIL](https://github.com/ns-matrix/RETAIL) | JavaScript | 2026-08-30 | 2026-08-30 | 0 |
-| [petal-rush](https://github.com/ns-matrix/petal-rush) | HTML | 2026-03-17 | 2026-08-08 | 1 |
-| [Project](https://github.com/ns-matrix/Project) | Python | 2026-04-02 | 2026-06-02 | 0 |
-| [AMBIEANT-MUSIC](https://github.com/ns-matrix/AMBIEANT-MUSIC) | HTML | 2026-05-05 | 2026-05-05 | 0 |
+|---|---|---:|---:|
+| [portfolio](https://github.com/ns-matrix/portfolio) | HTML | 2026-09-10 | 2026-10-16 |
+| [nxmatrix-teams-ai](https://github.com/ns-matrix/nxmatrix-teams-ai) | Python | 2026-10-15 | 2026-10-15 |
+| [axiom-linkedin-ai](https://github.com/ns-matrix/axiom-linkedin-ai) | Python | 2026-10-13 | 2026-10-13 |
+| [codeguard-ai](https://github.com/ns-matrix/codeguard-ai) | Python | 2026-09-23 | 2026-09-23 |
+| [RETAIL](https://github.com/ns-matrix/RETAIL) | JavaScript | 2026-08-30 | 2026-08-30 |
+| [petal-rush](https://github.com/ns-matrix/petal-rush) | HTML | 2026-03-17 | 2026-08-08 |
+| [Project](https://github.com/ns-matrix/Project) | Python | 2026-04-02 | 2026-06-02 |
+| [AMBIEANT-MUSIC](https://github.com/ns-matrix/AMBIEANT-MUSIC) | HTML | 2026-05-05 | 2026-05-05 |
 <!-- AUTO:RECENT_REPOS:END -->
 
 ## Tech hub · detected code distribution
