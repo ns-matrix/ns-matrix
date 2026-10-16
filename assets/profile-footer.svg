@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92" role="img" aria-labelledby="title">
+<title id="title">NX Matrix — Building, learning, shipping</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#03120a"/><stop offset=".5" stop-color="#07301a"/><stop offset="1" stop-color="#03120a"/></linearGradient></defs>
+<rect width="1200" height="92" rx="8" fill="url(#bg)"/><path d="M0 1H1200 M0 91H1200" stroke="#00ff66" stroke-opacity=".55"/>
+<text x="600" y="39" fill="#00ff66" text-anchor="middle" font-family="monospace" font-size="18" font-weight="700" letter-spacing="3">[ SYSTEM STATUS ]</text>
+<text x="600" y="65" fill="#c4f6d0" text-anchor="middle" font-family="monospace" font-size="13" letter-spacing="2">BUILDING  ·  LEARNING  ·  SHIPPING</text>
+</svg>
