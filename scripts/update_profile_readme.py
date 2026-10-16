@@ -168,15 +168,13 @@ def tech_hub(repos):
         return "_GitHub language statistics are unavailable at the moment._"
 
     ranked = sorted(totals.items(), key=lambda item: item[1], reverse=True)[:10]
-    # GitHub READMEs can display a committed image; Actions refreshes this SVG each run.
+    # A GitHub-hosted SVG is embedded as a data URI, so the chart updates with README itself.
     svg_bytes = make_pie_chart_svg(ranked, total_bytes)
-    os.makedirs("assets", exist_ok=True)
-    with open("assets/tech-hub-pie.svg", "wb") as file:
-        file.write(svg_bytes)
+    svg_data_uri = "data:image/svg+xml;base64," + __import__("base64").b64encode(svg_bytes).decode("ascii")
 
     rows = [
         '<div align="center">',
-        '<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />',
+        f'<img src="{svg_data_uri}" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />',
         '</div>',
         '',
         '| Language | Share | Repositories |',
