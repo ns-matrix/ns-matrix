@@ -11,7 +11,8 @@ The portfolio and Projects Lab are separate destinations for full project showca
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=00F06A&center=true&vCenter=true&width=850&lines=Data+Science+%7C+Software+Engineering;Building+practical+software+and+AI+tools;Learn+the+system.+Write+the+code.+Verify+the+result." alt="Animated developer introduction" />
 
 <a href="https://github.com/ns-matrix?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-Source%20%26%20Engineering-00F06A?style=for-the-badge&logo=github&logoColor=07110B" alt="GitHub repositories" /></a>
-<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase"><img src="https://img.shields.io/badge/PROJECTS%20LAB-Visual%20Showcase-00D9F5?style=for-the-badge&logo=vercel&logoColor=07110B" alt="Projects Lab" /></a>
+<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-Personal%20Website-00D9F5?style=for-the-badge&logo=vercel&logoColor=07110B" alt="Main portfolio" /></a>
+<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase"><img src="https://img.shields.io/badge/PROJECTS%20LAB-Visual%20Showcase-BAFF66?style=for-the-badge&logo=vercel&logoColor=07110B" alt="Projects Lab" /></a>
 <a href="https://www.linkedin.com/in/nitin-kumar-singh-339210262/"><img src="https://img.shields.io/badge/LINKEDIN-Professional%20Journey-BAFF66?style=for-the-badge&logo=linkedin&logoColor=07110B" alt="LinkedIn profile" /></a>
 
 </div>
@@ -26,7 +27,7 @@ My journey is about moving from learning concepts to understanding how real syst
 
 > **My rule:** A project isn't just a screenshot. I want to understand the code behind it, the trade-offs in its design, and how to verify that it works.
 
-This profile is the engineering view of that journey: technologies I work with, recent repository activity, code-language analysis, and contribution signals. For polished demos and full project descriptions, use my **[Portfolio & Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)**. For professional updates and career context, visit **[LinkedIn](https://www.linkedin.com/in/nitin-kumar-singh-339210262/)**.
+This profile is the engineering view of that journey: technologies I work with, recent repository activity, code-language analysis, and contribution signals. Visit my **[Main Portfolio](https://portfolio-psi-ochre-jabym9b7ir.vercel.app)** for my personal site, or the separate **[Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)** for project demos and features. For professional updates and career context, visit **[LinkedIn](https://www.linkedin.com/in/nitin-kumar-singh-339210262/)**.
 
 ## Current engineering focus
 
@@ -40,7 +41,7 @@ This profile is the engineering view of that journey: technologies I work with, 
 The table below is refreshed automatically from the GitHub API, ordered by the latest repository push. It is intended to show what has been active recently, not to replace the project showcase.
 
 <!-- AUTO:RECENT_REPOS:START -->
-| Repository | Language | Created | Latest push | Stars |
+| Repository | Language | Created | Latest push |
 |---|---|---:|---:|---:|
 | [portfolio](https://github.com/ns-matrix/portfolio) | HTML | 2026-09-10 | 2026-10-16 | 0 |
 | [nxmatrix-teams-ai](https://github.com/ns-matrix/nxmatrix-teams-ai) | Python | 2026-10-15 | 2026-10-15 | 0 |
@@ -120,8 +121,9 @@ These widgets are maintained by external services and can occasionally fail or b
 
 | Want to… | Go here |
 |---|---|
+| Visit my personal website and introduction | [Main Portfolio](https://portfolio-psi-ochre-jabym9b7ir.vercel.app) |
+| Explore project demos and detailed features | [Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase) |
 | Inspect source code and engineering activity | [GitHub repositories](https://github.com/ns-matrix?tab=repositories) |
-| See polished demos and detailed project features | [Portfolio & Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase) |
 | Read my professional background and updates | [LinkedIn](https://www.linkedin.com/in/nitin-kumar-singh-339210262/) |
 
 <img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-footer.svg" width="100%" alt="NX Matrix — Building, learning, shipping" />
