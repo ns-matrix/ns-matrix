@@ -1,124 +1,147 @@
-
-<h3 align="left"><b>Hey 👋 What's up?</b></h3>
-
-<p align="left">My name is Singh Nitin Kumar Chakradhar Radha and I'm a B.Sc Data Science Student & Aspiring Machine Learning Engineer from Mumbai, India 🇮🇳</p>
-
-<h3 align="left"><b># About me</b></h3>
-
-<p align="left">✨ Building Data Science & AI projects since 2024 <br>📚 I'm currently learning Machine Learning, Deep Learning & Advanced Data Analytics <br>🎯 Goals: Become an AI Engineer and build impactful real-world AI systems <br>🎲 Fun fact: I started digitizing municipal school records and now I love solving real-world problems using data</p>
-
-<h3 align="left">🚀 Current Focus</h3>
-
-<p align="left">📊 E-Commerce Sales & Customer Analytics Using Machine Learning<br>🤖 Real-Time Computer Vision & Object Detection Projects<br>🧠 Predictive Analytics using Python & Scikit-Learn<br>📈 Data Visualization using Power BI & Excel<br>🗄️ SQL-based Data Analysis Projects</p>
-
-<h3 align="left">💻 Tech Stack</h3>
+<!--
+  NX MATRIX · PROFILE README
+  Theme: black terminal / neon green / cyan
+-->
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="40" alt="androidstudio logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" height="40" alt="apache logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="40" alt="canva logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="40" alt="django logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="40" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="40" alt="flask logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg" height="40" alt="gimp logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="40" alt="googlecloud logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/goland/goland-original.svg" height="40" alt="goland logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" height="40" alt="illustrator logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg" height="40" alt="kaggle logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="40" alt="linkedin logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg" height="40" alt="notion logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opera/opera-original.svg" height="40" alt="opera logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="oracle logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" height="40" alt="photoshop logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" alt="pycharm logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" height="40" alt="r logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" height="40" alt="raspberrypi logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" height="40" alt="rstudio logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=170&color=0:03120A,50:062615,100:03120A&text=NITIN%20SINGH&fontColor=00FF66&fontSize=48&fontAlignY=42&desc=DATA%20SCIENCE%20%7C%20AI%20%26%20ML%20%7C%20SOFTWARE%20ENGINEERING&descAlignY=68&descSize=14&animation=fadeIn" width="100%" alt="Nitin Singh — Data Science, AI and Software Engineering" />
+
+<br/>
+
+<a href="https://www.linkedin.com/in/nitin-kumar-singh-339210262/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-00E5FF?style=for-the-badge&logo=linkedin&logoColor=000000" alt="Connect on LinkedIn" /></a>
+<a href="https://github.com/ns-matrix"><img src="https://img.shields.io/badge/GITHUB-Explore%20Projects-00FF66?style=for-the-badge&logo=github&logoColor=000000" alt="Explore GitHub projects" /></a>
+<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase"><img src="https://img.shields.io/badge/PROJECTS%20LAB-Open%20Portfolio-B7FF5B?style=for-the-badge&logo=vercel&logoColor=000000" alt="Open Projects Lab portfolio" /></a>
+
+<br/><br/>
+
+**IDEAS · INTELLIGENCE · IMPACT**
+
+*Building practical software and data-driven tools through experimentation, engineering, and continuous learning.*
+
 </div>
 
-<h3 align="left">🌐 Connect with me</h3>
+---
+
+## `01 / ABOUT`
+
+Hi, I'm **Nitin Singh**, a Data Science student from Mumbai, India, interested in **software development, applied AI, machine learning, and analytics**.
+
+I enjoy taking a problem from an initial idea to a working implementation: exploring the data, building the logic, designing the interface, testing the workflow, and documenting what I learn. My project work spans analytics dashboards, AI-assisted developer tools, web applications, and workflow automation.
+
+- 🎓 **Education:** Bachelor's in Data Science — University of Mumbai
+- 💼 **Experience:** Internship at NSE, working with the ADM and Webtic teams
+- 🧠 **Focus:** Python, data analysis, AI/ML, web development, and practical automation
+- 🛠️ **Approach:** Build, test, document, improve
+- 📍 **Location:** Mumbai, India
+
+## `02 / CURRENT FOCUS`
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/singh-nitin-kumar-chakradhar-radha-339210262/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
-  <a href="mailto:ns077751@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
-  </a>
+
+| AREA | WHAT I'M EXPLORING |
+|:--|:--|
+| **AI & LLM Applications** | Practical AI tools, local models, and AI-assisted workflows |
+| **Data Science & ML** | Exploratory analysis, predictive modelling, and evaluation |
+| **Software Engineering** | APIs, application architecture, validation, and maintainable code |
+| **Web Products** | Responsive interfaces, deployment, and user-focused project design |
+| **Automation** | Browser workflows, task recording, and reliable execution |
+
 </div>
-## Netlify deployment status
 
-These live badges track the latest deployment for each Netlify project. Each badge links to that project's deployment history.
+## `03 / FEATURED PROJECTS`
 
-- **nx-matrix-portfolio**: [![nx-matrix-portfolio Netlify Status](https://api.netlify.com/api/v1/badges/fc94b54e-3875-460f-92f1-f2af51518166/deploy-status)](https://app.netlify.com/projects/nx-matrix-portfolio/deploys)
-- **zippy-phoenix-855a19**: [![zippy-phoenix-855a19 Netlify Status](https://api.netlify.com/api/v1/badges/bcf57d96-3fb9-43ba-b542-9d6cbef3203d/deploy-status)](https://app.netlify.com/projects/zippy-phoenix-855a19/deploys)
-- **ns-matrix-personaplex7b-4-bit**: [![ns-matrix-personaplex7b-4-bit Netlify Status](https://api.netlify.com/api/v1/badges/fb4a2924-6fbd-4ccd-878a-a0d31148d6a1/deploy-status)](https://app.netlify.com/projects/ns-matrix-personaplex7b-4-bit/deploys)
-- **ns-matrix-project-showcase**: [![ns-matrix-project-showcase Netlify Status](https://api.netlify.com/api/v1/badges/b5b4b234-d01b-4fe5-8115-c00ad06d892f/deploy-status)](https://app.netlify.com/projects/ns-matrix-project-showcase/deploys)
+<table>
+<tr>
+<td width="50%" valign="top">
 
+### 🛡️ CodeGuard AI
+AI-assisted code validation and review, combining deterministic checks with local LLM analysis.
 
-<br>
+**Stack:** FastAPI · React · Ollama · PostgreSQL
+
+[View repository ↗](https://github.com/ns-matrix/codeguard-ai)
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 EcomIQ
+E-commerce analytics exploring sales patterns, customer insights, product demand, and predictive workflows.
+
+**Stack:** Python · Streamlit · Scikit-learn · Pandas
+
+[View project ↗](https://github.com/ns-matrix)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 Axiom Execution Plane
+An AI-assisted browser automation project focused on supervised execution, reusable skills, and task replay.
+
+**Focus:** Browser automation · Ollama · MCP · Workflow verification
+
+[Explore repositories ↗](https://github.com/ns-matrix?tab=repositories)
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 Projects Lab
+A portfolio catalogue presenting project goals, features, technology choices, and repository links.
+
+**Focus:** Portfolio engineering · Responsive UI · Web deployment
+
+[Open Projects Lab ↗](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)
+
+</td>
+</tr>
+</table>
 
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=ns-matrix.ns-matrix&"  />
-  <br>
-  <p align="center"><b>Thank you for visiting my profile! ✨</b></p>
-  
-  <a href="https://github.com/ns-matrix/ns-matrix/stargazers" target="_blank">
-    <img src="https://img.shields.io/github/stars/ns-matrix/ns-matrix?style=for-the-badge&logo=github&color=ffca28&label=Likes%20(Stars)" alt="Likes" />
-  </a>
-  <a href="https://github.com/ns-matrix/ns-matrix/issues/1" target="_blank">
-    <img src="https://img.shields.io/badge/Sign_My_Guestbook-0066ff?style=for-the-badge&logo=github&logoColor=white" alt="Sign my Guestbook" />
-  </a>
+
+[View all repositories on GitHub →](https://github.com/ns-matrix?tab=repositories)
+
+</div>
+
+## `04 / TECHNOLOGY TOOLKIT`
+
+<div align="center">
+
+### Languages & Data
+<img src="https://skillicons.dev/icons?i=python,java,js,html,css,mysql,postgres" alt="Python, Java, JavaScript, HTML, CSS, MySQL, PostgreSQL" />
+
+### AI, Analytics & Development
+<img src="https://skillicons.dev/icons?i=pytorch,sklearn,fastapi,react,nodejs,firebase,docker,git,github,vscode" alt="PyTorch, scikit-learn, FastAPI, React, Node.js, Firebase, Docker, Git, GitHub, VS Code" />
+
+</div>
+
+**Also exploring:** Pandas, NumPy, Streamlit, Power BI, REST APIs, local LLMs, and browser automation.  
+*Tools and technologies listed reflect areas of use or learning; proficiency varies by tool.*
+
+## `05 / LEARNING PRINCIPLES`
+
+- **Build to understand:** turn concepts into small, testable projects.
+- **Prefer evidence:** validate outputs with data, checks, and reproducible steps.
+- **Design for people:** make tools understandable and interfaces usable.
+- **Keep improving:** document decisions, learn from failures, and iterate.
+
+## `06 / CONNECT`
+
+<div align="center">
+
+Open to connecting with developers, data professionals, and people building useful technology.
+
+<a href="https://www.linkedin.com/in/nitin-kumar-singh-339210262/"><img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-00E5FF?style=for-the-badge&logo=linkedin&logoColor=000000" alt="Connect on LinkedIn" /></a>
+<a href="https://github.com/ns-matrix"><img src="https://img.shields.io/badge/GitHub-Follow%20My%20Work-00FF66?style=for-the-badge&logo=github&logoColor=000000" alt="Follow on GitHub" /></a>
+<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase"><img src="https://img.shields.io/badge/Portfolio-Projects%20Lab-B7FF5B?style=for-the-badge&logo=vercel&logoColor=000000" alt="View portfolio" /></a>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:03120A,50:063018,100:03120A&section=footer&fontColor=00FF66" width="100%" alt="" />
+
+**`[ SYSTEM STATUS ] BUILDING · LEARNING · SHIPPING `**
+
+<sub>Thanks for visiting — explore a repository, see what I’m building, or connect on LinkedIn.</sub>
+
 </div>
