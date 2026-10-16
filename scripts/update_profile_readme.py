@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Refresh dynamic repository analytics, language pie chart, and newest-project card."""
 import json
+import html
 import math
 import os
 import re
@@ -71,6 +72,55 @@ def recent_repositories(repos):
     return "\n".join(rows) if recent else "_No public repositories were returned by GitHub._"
 
 
+def repo_readme_details(repo):
+    """Extract a short summary and feature bullets from the repository's README."""
+    branch = repo.get("default_branch") or "main"
+    url = f"https://raw.githubusercontent.com/{OWNER}/{repo['name']}/{branch}/README.md"
+    try:
+        request = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(request, timeout=20) as response:
+            content = response.read().decode("utf-8", errors="replace")
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError):
+        return "", []
+
+    # Prefer a concise bold tagline or a short description paragraph.
+    tagline = re.search(r"<strong>(.*?)</strong>", content, re.I | re.S)
+    summary = ""
+    if tagline:
+        summary = re.sub(r"<[^>]+>", " ", tagline.group(1))
+        summary = html.unescape(re.sub(r"\s+", " ", summary)).strip()
+    if not summary:
+        paragraphs = re.findall(r"<p[^>]*>(.*?)</p>", content, re.I | re.S)
+        for paragraph in paragraphs:
+            plain = html.unescape(re.sub(r"<[^>]+>", " ", paragraph))
+            plain = re.sub(r"\s+", " ", plain).strip()
+            if len(plain) > 35 and not plain.lower().startswith(("project website", "source code", "report an issue")):
+                summary = plain
+                break
+    if not summary:
+        paragraphs = re.findall(r"(?m)^(?!#|>|\\[|\\s*$)(.{36,})$", content)
+        if paragraphs:
+            summary = re.sub(r"\s+", " ", paragraphs[0]).strip()
+
+    # Pull concise feature bullets from a conventional "What it does" section.
+    features = []
+    match = re.search(
+        r"(?is)^##\s+what it does\s*$([\s\S]*?)(?=^##\s+|\Z)",
+        content,
+        re.M,
+    )
+    if match:
+        for line in match.group(1).splitlines():
+            item = re.match(r"\s*[-*]\s+(.+)", line)
+            if item:
+                feature = html.unescape(re.sub(r"<[^>]+>", "", item.group(1))).strip()
+                if feature:
+                    features.append(re.sub(r"\s+", " ", feature))
+            if len(features) >= 3:
+                break
+    return summary, features
+
+
 def get_latest_created_project():
     """Fetch complete repository metadata, then select the newest-created eligible repo."""
     full_repos = []
@@ -85,17 +135,23 @@ def get_latest_created_project():
         return "_No public repositories were returned by GitHub._"
     newest = max(full_repos, key=lambda repo: repo.get("created_at") or "")
     name = safe(newest.get("name"))
-    description = safe(newest.get("description") or "A new repository in progress. Open the repository to explore its current code and implementation.")
+    readme_summary, features = repo_readme_details(newest)
+    description = safe(newest.get("description") or readme_summary or "Open the repository to explore its current code and implementation.")
     url = newest.get("html_url", f"https://github.com/{OWNER}/{newest['name']}")
     language = safe(newest.get("language") or "Not detected")
     created = parsed_date(newest.get("created_at"))
     pushed = parsed_date(newest.get("pushed_at"))
+    feature_html = ""
+    if features:
+        feature_html = "<ul>" + "".join(f"<li>{html.escape(feature)}</li>" for feature in features) + "</ul>"
     return "\n".join([
         '<table width="100%" border="0" cellpadding="12" cellspacing="0">',
         '<tr><td>',
-        f'<h3><a href="{url}">🚀 {name}</a></h3>',
-        f'<p>{description}</p>',
-        f'<p><b>Primary language:</b> {language} &nbsp; · &nbsp; <b>Created:</b> {created} &nbsp; · &nbsp; <b>Latest push:</b> {pushed}</p>',
+        '<p><b>🆕 LATEST REPOSITORY</b></p>',
+        f'<h3><a href="{url}">🚀 {html.escape(name)}</a></h3>',
+        f'<p>{html.escape(description)}</p>',
+        feature_html,
+        f'<p><b>Primary language:</b> {html.escape(language)} &nbsp; · &nbsp; <b>Created:</b> {created} &nbsp; · &nbsp; <b>Latest push:</b> {pushed}</p>',
         f'<p><a href="{url}">Explore the latest repository →</a></p>',
         '</td></tr></table>',
     ])
