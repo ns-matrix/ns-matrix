@@ -1,106 +1,111 @@
 <!--
-  NITIN KUMAR SINGH · GitHub Profile
-  Purpose: engineering profile, skills, repository analytics, contribution activity.
-  Portfolio and Projects Lab already cover detailed project showcases.
+NITIN KUMAR SINGH · GITHUB PROFILE
+Engineering notes, code analytics, and recent repository activity.
+The portfolio and Projects Lab are separate destinations for full project showcases.
 -->
 
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-header.svg" width="100%" alt="Nitin Singh — Software Engineering, Data Science and Applied AI" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=00F06A&center=true&vCenter=true&width=850&lines=Software+Developer+%7C+Data+Science;Building+with+Python%2C+JavaScript+and+AI;Code+%E2%86%92+Test+%E2%86%92+Learn+%E2%86%92+Improve" alt="Animated developer profile" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=00F06A&center=true&vCenter=true&width=850&lines=Data+Science+%7C+Software+Engineering;Building+practical+software+and+AI+tools;Learn+the+system.+Write+the+code.+Verify+the+result." alt="Animated developer introduction" />
 
-<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase"><img src="https://img.shields.io/badge/PORTFOLIO-Projects%20Lab-00F06A?style=for-the-badge&logo=vercel&logoColor=07110B" alt="Portfolio and Projects Lab" /></a>
-<a href="https://www.linkedin.com/in/nitin-kumar-singh-339210262/"><img src="https://img.shields.io/badge/LINKEDIN-Professional%20Profile-00D9F5?style=for-the-badge&logo=linkedin&logoColor=07110B" alt="LinkedIn profile" /></a>
+<a href="https://github.com/ns-matrix?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-Source%20%26%20Engineering-00F06A?style=for-the-badge&logo=github&logoColor=07110B" alt="GitHub repositories" /></a>
+<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase"><img src="https://img.shields.io/badge/PROJECTS%20LAB-Visual%20Showcase-00D9F5?style=for-the-badge&logo=vercel&logoColor=07110B" alt="Projects Lab" /></a>
+<a href="https://www.linkedin.com/in/nitin-kumar-singh-339210262/"><img src="https://img.shields.io/badge/LINKEDIN-Professional%20Journey-BAFF66?style=for-the-badge&logo=linkedin&logoColor=07110B" alt="LinkedIn profile" /></a>
 
 </div>
 
 ---
 
-## Who I am
+## The story so far
 
-I'm **Nitin Kumar Singh** — a Data Science student at the **University of Mumbai**, an NSE intern in the **ADM and Webtic teams**, and an aspiring software engineer.
+I'm **Nitin Kumar Singh**, a Data Science student at the **University of Mumbai**, currently gaining professional experience as an intern at the **National Stock Exchange of India (NSE)** with the ADM and Webtic teams.
 
-I use GitHub to document how I build: source code, application logic, integrations, experiments, fixes, and improvements. My interests include software engineering, applied AI, machine learning, data applications, and automation.
+My journey is about moving from learning concepts to understanding how real systems are put together: writing code, connecting APIs and databases, experimenting with AI, debugging failures, and making projects more reliable. I’m working toward becoming a software engineer with a strong foundation in data and applied AI.
 
-- **Currently focused on:** building practical software and improving engineering fundamentals
-- **Problem-solving approach:** understand the requirement, implement, test, document, iterate
-- **Interests:** backend and web development, AI/LLM applications, analytics, browser automation
-- **Professional context:** [LinkedIn](https://www.linkedin.com/in/nitin-kumar-singh-339210262/)
-- **Project demonstrations:** [Portfolio & Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)
+> **My rule:** A project isn't just a screenshot. I want to understand the code behind it, the trade-offs in its design, and how to verify that it works.
+
+This profile is the engineering view of that journey: technologies I work with, recent repository activity, code-language analysis, and contribution signals. For polished demos and full project descriptions, use my **[Portfolio & Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)**. For professional updates and career context, visit **[LinkedIn](https://www.linkedin.com/in/nitin-kumar-singh-339210262/)**.
+
+## Current engineering focus
+
+- **Software development:** application structure, frontend experiences, backend APIs, databases, debugging, and maintainable code.
+- **Applied AI:** local LLMs, AI-assisted developer tools, model integrations, and practical AI workflows.
+- **Data science:** Python, data analysis, machine learning experiments, and analytics.
+- **Automation:** browser extensions, reusable workflows, verification, and MCP integrations.
+
+## Recently active repositories
+
+The table below is refreshed automatically from the GitHub API, ordered by the latest repository push. It is intended to show what has been active recently, not to replace the project showcase.
+
+<!-- AUTO:RECENT_REPOS:START -->
+_Automatic repository data will appear after the first workflow run._
+<!-- AUTO:RECENT_REPOS:END -->
+
+## Tech hub · detected code distribution
+
+This section aggregates GitHub's language-byte statistics across my public, non-fork, non-archived repositories. It updates automatically alongside the recent-repository table. Percentages indicate the share of detected code volume, **not skill level or proficiency**.
+
+<!-- AUTO:TECH_HUB:START -->
+_Technology analysis will appear after the first workflow run._
+<!-- AUTO:TECH_HUB:END -->
 
 ## Engineering toolkit
 
-These are technologies I use or explore across projects; this is not a claim of equal proficiency in every tool.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Languages
-![Python](https://img.shields.io/badge/Python-0B1710?style=flat-square&logo=python&logoColor=00F06A)
-![JavaScript](https://img.shields.io/badge/JavaScript-0B1710?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Java](https://img.shields.io/badge/Java-0B1710?style=flat-square&logo=openjdk&logoColor=00D9F5)
-![HTML5](https://img.shields.io/badge/HTML5-0B1710?style=flat-square&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-0B1710?style=flat-square&logo=css3&logoColor=1572B6)
-
-### Backend & data
-![FastAPI](https://img.shields.io/badge/FastAPI-0B1710?style=flat-square&logo=fastapi&logoColor=00F06A)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B1710?style=flat-square&logo=postgresql&logoColor=00D9F5)
-![MySQL](https://img.shields.io/badge/MySQL-0B1710?style=flat-square&logo=mysql&logoColor=00D9F5)
-![Firebase](https://img.shields.io/badge/Firebase-0B1710?style=flat-square&logo=firebase&logoColor=FFCA28)
-
-</td>
-<td width="50%" valign="top">
-
-### Frontend & tooling
-![React](https://img.shields.io/badge/React-0B1710?style=flat-square&logo=react&logoColor=00D9F5)
-![Node.js](https://img.shields.io/badge/Node.js-0B1710?style=flat-square&logo=nodedotjs&logoColor=00F06A)
-![Git](https://img.shields.io/badge/Git-0B1710?style=flat-square&logo=git&logoColor=F05032)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0B1710?style=flat-square&logo=githubactions&logoColor=00D9F5)
-![Docker](https://img.shields.io/badge/Docker-0B1710?style=flat-square&logo=docker&logoColor=2496ED)
-
-### AI & analytics
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0B1710?style=flat-square&logo=scikitlearn&logoColor=F7931E)
-![Pandas](https://img.shields.io/badge/Pandas-0B1710?style=flat-square&logo=pandas&logoColor=BA8CFF)
-![Ollama](https://img.shields.io/badge/Ollama-0B1710?style=flat-square&logo=ollama&logoColor=00F06A)
-![REST APIs](https://img.shields.io/badge/REST%20APIs-0B1710?style=flat-square&logo=fastapi&logoColor=00D9F5)
-
-</td>
-</tr>
-</table>
-
-## GitHub analytics
-
-These cards query the ns-matrix GitHub account, so repository and contribution data refresh as the underlying GitHub data and widget caches update. Language breakdowns reflect detected code in public repositories, not a formal skill rating.
+Tools I use or explore across projects. The dynamic Tech Hub above is the repository-derived view; this section is a concise map of my engineering interests.
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=ns-matrix&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&bg_color=050D09&title_color=00F06A&icon_color=00D9F5&text_color=E8FFF0" alt="GitHub statistics for ns-matrix" />
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ns-matrix&layout=compact&langs_count=8&hide_border=true&bg_color=050D09&title_color=00F06A&text_color=E8FFF0" alt="Most-used languages across public repositories" />
+![Python](https://img.shields.io/badge/Python-0B1710?style=flat-square&logo=python&logoColor=00F06A)
+![JavaScript](https://img.shields.io/badge/JavaScript-0B1710?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![Java](https://img.shields.io/badge/Java-0B1710?style=flat-square&logo=openjdk&logoColor=00D9F5)
+![React](https://img.shields.io/badge/React-0B1710?style=flat-square&logo=react&logoColor=00D9F5)
+![Node.js](https://img.shields.io/badge/Node.js-0B1710?style=flat-square&logo=nodedotjs&logoColor=00F06A)
+![FastAPI](https://img.shields.io/badge/FastAPI-0B1710?style=flat-square&logo=fastapi&logoColor=00F06A)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B1710?style=flat-square&logo=postgresql&logoColor=00D9F5)
+![Firebase](https://img.shields.io/badge/Firebase-0B1710?style=flat-square&logo=firebase&logoColor=FFCA28)
+![Git](https://img.shields.io/badge/Git-0B1710?style=flat-square&logo=git&logoColor=F05032)
+![Docker](https://img.shields.io/badge/Docker-0B1710?style=flat-square&logo=docker&logoColor=2496ED)
+![Ollama](https://img.shields.io/badge/Ollama-0B1710?style=flat-square&logo=ollama&logoColor=00F06A)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-0B1710?style=flat-square&logo=scikitlearn&logoColor=F7931E)
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ns-matrix&hide_border=true&background=050D09&ring=00F06A&fire=00D9F5&currStreakLabel=00F06A&sideLabels=E8FFF0&currStreakNum=E8FFF0&sideNums=E8FFF0&dates=9BB9A5" alt="GitHub contribution streak" />
+</div>
+
+**Also exploring:** Pandas · NumPy · Streamlit · REST APIs · Power BI · local LLMs · MCP
+
+## GitHub activity
+
+These live cards provide a high-level view of public GitHub activity. External widget services may cache results or occasionally be unavailable.
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=ns-matrix&show_icons=true&hide_border=true&bg_color=050D09&title_color=00F06A&icon_color=00D9F5&text_color=E8FFF0" alt="GitHub account statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ns-matrix&layout=compact&langs_count=8&hide_border=true&bg_color=050D09&title_color=00F06A&text_color=E8FFF0" alt="Most used languages chart" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=ns-matrix&bg_color=050D09&color=E8FFF0&line=00F06A&point=00D9F5&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph" />
 
 </div>
 
-## How I approach engineering
+## How I think about code
 
-- **Read the problem first:** requirements and constraints before implementation.
-- **Make it testable:** validate core behaviour and handle failure paths.
-- **Keep it maintainable:** clear structure, reusable components, useful documentation.
-- **Measure honestly:** repository activity and language charts are signals, not proof of expertise.
-- **Improve continuously:** learn from bugs, reviews, and real use.
+- **Read first:** understand the requirement and existing system before changing it.
+- **Build in steps:** keep changes focused and the implementation understandable.
+- **Verify:** test the important paths and be explicit about failures or limitations.
+- **Learn from the repository:** use issues, commits, reviews, and experiments to improve.
 
-## Find me elsewhere
+## Find the right place
 
 <div align="center">
 
-[**Portfolio & Projects Lab**](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase) · [**LinkedIn**](https://www.linkedin.com/in/nitin-kumar-singh-339210262/) · [**All repositories**](https://github.com/ns-matrix?tab=repositories)
+| Want to… | Go here |
+|---|---|
+| Inspect source code and engineering activity | [GitHub repositories](https://github.com/ns-matrix?tab=repositories) |
+| See polished demos and detailed project features | [Portfolio & Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase) |
+| Read my professional background and updates | [LinkedIn](https://www.linkedin.com/in/nitin-kumar-singh-339210262/) |
 
 <img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-footer.svg" width="100%" alt="NX Matrix — Building, learning, shipping" />
 
-<sub>Built in public, one commit at a time.</sub>
+<sub>Thanks for stopping by. Explore the code, follow the work, or connect.</sub>
 
 </div>
