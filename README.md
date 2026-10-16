@@ -1,152 +1,144 @@
-<!--
-  NX MATRIX | Cyber-tech profile README
-  Theme: obsidian black, neon green, cyan, terminal UI.
--->
+<!-- NX MATRIX | Professional profile README | Cyber-tech, minimal, accessible -->
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-header.svg" width="100%" alt="Nitin Singh — Data Science, AI and Software Engineering" />
+<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-header.svg" width="100%" alt="Nitin Singh — Data Science, Applied AI and Software Engineering" />
 
-<a href="https://www.linkedin.com/in/nitin-kumar-singh-339210262/"><img src="https://img.shields.io/badge/LINKEDIN-LET'S%20CONNECT-00E5FF?style=for-the-badge&logo=linkedin&logoColor=000000" alt="LinkedIn" /></a>
-<a href="https://github.com/ns-matrix"><img src="https://img.shields.io/badge/GITHUB-OPEN%20SOURCE-00FF66?style=for-the-badge&logo=github&logoColor=000000" alt="GitHub" /></a>
-<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase"><img src="https://img.shields.io/badge/PROJECTS%20LAB-PORTFOLIO-B9FF5C?style=for-the-badge&logo=vercel&logoColor=000000" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/nitin-kumar-singh-339210262/"><img src="https://img.shields.io/badge/LinkedIn-Connect-00D9F5?style=for-the-badge&logo=linkedin&logoColor=07110B" alt="LinkedIn profile" /></a>
+<a href="https://github.com/ns-matrix?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Projects-00F06A?style=for-the-badge&logo=github&logoColor=07110B" alt="GitHub repositories" /></a>
+<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase"><img src="https://img.shields.io/badge/Portfolio-Projects%20Lab-B9FF66?style=for-the-badge&logo=vercel&logoColor=07110B" alt="Projects Lab portfolio" /></a>
 
-<br/><br/>
+<br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=800&color=00FF66&center=true&vCenter=true&width=850&lines=%3E+Software+Developer+in+progress;%3E+Data+Science+%7C+AI+%26+Machine+Learning;%3E+Building+practical+tools+and+useful+products;%3E+Build.+Learn.+Experiment.+Ship." alt="Animated typing: Software Developer, Data Science, AI and Machine Learning" />
-
-<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-terminal-animation.svg" width="100%" alt="Animated NX Matrix terminal: Build, learn, experiment, ship" />
+<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-terminal-animation.svg" width="100%" alt="NX Matrix terminal animation: Build, learn, experiment, ship" />
 
 **IDEAS · INTELLIGENCE · IMPACT**
 
-*Turning ideas into practical software, data-driven tools, and intelligent workflows.*
+*Data Science student building practical software, AI-enabled tools, and data-driven products.*
 
 </div>
 
 ---
 
-## `01 / WHOAMI`
+## About
 
-```text
-NAME       : Nitin Singh
-BASED IN   : Mumbai, India
-EDUCATION  : Bachelor's in Data Science — University of Mumbai
-EXPERIENCE : NSE Intern — ADM & Webtic teams
-DIRECTION  : Software Engineering · Applied AI · Data Science
-MINDSET    : Build → Test → Learn → Improve
-```
+I'm **Nitin Kumar Singh**, a Data Science student at the **University of Mumbai** and an aspiring software engineer based in Mumbai, India. I’m interested in turning technical ideas into useful, well-documented projects — from analytics and AI-assisted developer tools to web applications and browser automation.
 
-Hi! I'm **Nitin Singh**, a Data Science student and aspiring software developer interested in building useful products at the intersection of **software engineering, AI, machine learning, and analytics**.
+My approach is practical: understand the problem, build a working solution, test the important paths, document trade-offs, and improve from feedback.
 
-I like working across the full project journey: understanding a problem, exploring data, building an implementation, designing a usable interface, validating the result, and documenting what I learn. My projects range from analytics dashboards and AI-assisted developer tools to web products and supervised browser automation.
+- **Education:** Bachelor's in Data Science — University of Mumbai
+- **Experience:** Internship at the National Stock Exchange of India (NSE), ADM & Webtic teams
+- **Interests:** Software engineering, applied AI, machine learning, computer vision, data analytics, APIs, and automation
+- **Working style:** Build → Test → Learn → Improve
+- **Portfolio:** [Explore Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)
 
-- 🎓 **Education:** B.Sc. Data Science, University of Mumbai
-- 💼 **Experience:** Internship at the National Stock Exchange of India (NSE), ADM and Webtic teams
-- 🧠 **Interests:** Applied AI, LLM applications, machine learning, data analytics, APIs, and automation
-- 🧰 **Builder mindset:** Practical projects, readable code, measurable checks, iterative improvement
-- 🌐 **Portfolio:** [Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)
-
-## `02 / MISSION CONTROL`
+## What I'm building
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### <code>AI / INTELLIGENCE</code>
+### AI & intelligent workflows
 
-- AI-assisted developer tools
-- Local LLMs and model integrations
-- Machine learning experiments
-- AI agents and workflow automation
-
-</td>
-<td width="50%" valign="top">
-
-### <code>DATA / ENGINEERING</code>
-
-- Python-based data analysis
-- Predictive modelling and evaluation
-- SQL and database-backed apps
-- APIs, web interfaces, and deployment
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <code>BUILD / SHIP</code>
-
-- Responsive project experiences
-- Maintainable application structure
-- GitHub project documentation
-- Deployment and troubleshooting
+- AI-assisted development and code review
+- Local LLM integrations using Ollama
+- Browser task recording and supervised replay
+- MCP-based tools and workflow integrations
 
 </td>
 <td width="50%" valign="top">
 
-### <code>LEARN / IMPROVE</code>
+### Data & software products
 
-- Learn by building and testing
-- Verify outputs instead of guessing
-- Document decisions and limitations
-- Iterate from real feedback
+- Python-based data analysis and ML experiments
+- Web applications and responsive interfaces
+- API integrations and database-backed systems
+- Project documentation, testing, and deployment
 
 </td>
 </tr>
 </table>
 
-## `03 / SELECTED PROJECTS`
+## Selected projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ CodeGuard AI
+### [CodeGuard AI](https://github.com/ns-matrix/codeguard-ai)
 
-An AI-assisted code validation and review concept combining deterministic checks with local LLM analysis.
+LLM-assisted code validation and review, combining deterministic checks with local model analysis to help surface errors, security concerns, and possible fixes.
 
-**Focus:** Code quality · Validation · Local AI  
-**Tools:** FastAPI · React · Ollama · PostgreSQL
-
-[Explore GitHub repositories ↗](https://github.com/ns-matrix?tab=repositories)
+**Technologies:** FastAPI · React · Ollama · PostgreSQL
 
 </td>
 <td width="50%" valign="top">
 
-### 📊 EcomIQ
+### [NX Matrix Teams AI](https://github.com/ns-matrix/nxmatrix-teams-ai)
 
-An e-commerce analytics project exploring sales trends, customer insights, product demand, and predictive workflows.
+A Windows-first Python bot connecting Microsoft Teams-compatible chat to Ollama or an OpenAI-compatible chat-completions API.
 
-**Focus:** Analytics · Machine Learning · Visualisation  
-**Tools:** Python · Streamlit · Scikit-learn · Pandas
-
-[Explore GitHub repositories ↗](https://github.com/ns-matrix?tab=repositories)
+**Technologies:** Python · Teams SDK · Ollama · REST APIs
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 Axiom Execution Plane
+### [Axiom Execution Plane](https://github.com/ns-matrix/axiom-execution-plane)
 
-An AI-assisted browser execution project exploring supervised task runs, reusable skills, and deterministic replay.
+A Chrome extension and local bridge for supervised browser automation, reusable skills, task replay, and run verification.
 
-**Focus:** Browser automation · Task recording · Verification  
-**Tools:** Ollama · MCP · Browser extension workflows
-
-[Explore GitHub repositories ↗](https://github.com/ns-matrix?tab=repositories)
+**Technologies:** JavaScript · Python · FastAPI · Ollama · MCP
 
 </td>
 <td width="50%" valign="top">
 
-### 🌐 Projects Lab
+### [Axiom LinkedIn AI](https://github.com/ns-matrix/axiom-linkedin-ai)
 
-A portfolio experience for presenting project goals, technical choices, features, and repository links in one place.
+A browser automation prototype built around opt-in task recording, reusable skills, planning, approval gates, and verification.
 
-**Focus:** Frontend engineering · UI · Deployment  
-**Theme:** Cyber-tech terminal · Neon green · Cyan
+**Focus:** Human approval · Reliable execution · Auditability
 
-[Open Projects Lab ↗](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [NX Matrix LinkedIn MCP](https://github.com/ns-matrix/mcp-linkedin)
+
+An MCP-connected LinkedIn workflow project designed around approval-gated publishing, review, usage limits, and audit logging.
+
+**Focus:** MCP · Workflow safety · Human review
+
+</td>
+<td width="50%" valign="top">
+
+### [Petal Rush](https://github.com/ns-matrix/petal-rush)
+
+A mobile-first multi-vendor flower marketplace with separate buyer, seller, delivery-partner, and admin experiences.
+
+**Technologies:** HTML · CSS · JavaScript · Firebase · PWA
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Personal Portfolio](https://github.com/ns-matrix/portfolio)
+
+A responsive portfolio and Projects Lab for presenting projects, capabilities, and technical work.
+
+**Focus:** Frontend engineering · Responsive UI · Accessibility
+
+</td>
+<td width="50%" valign="top">
+
+### [Rajput Bills v2](https://github.com/ns-matrix/Rajput-Bills-v2)
+
+A React application combining tour-bill generation, vehicle road-tax tracking, and driver salary calculations.
+
+**Technologies:** React · Supabase
 
 </td>
 </tr>
@@ -154,54 +146,51 @@ A portfolio experience for presenting project goals, technical choices, features
 
 <div align="center">
 
-<a href="https://github.com/ns-matrix?tab=repositories"><img src="https://img.shields.io/badge/VIEW-ALL%20REPOSITORIES-00FF66?style=for-the-badge&logo=github&logoColor=000000" alt="View all repositories" /></a>
+<a href="https://github.com/ns-matrix?tab=repositories"><img src="https://img.shields.io/badge/Explore-All%20Repositories-00F06A?style=for-the-badge&logo=github&logoColor=07110B" alt="Explore all repositories" /></a>
 
 </div>
 
-## `04 / TECH STACK`
+## Technology
 
 <div align="center">
 
-**Languages & Web**
+**Languages & web**
 
 <img src="https://skillicons.dev/icons?i=python,java,js,html,css,react,nodejs" alt="Python, Java, JavaScript, HTML, CSS, React, Node.js" />
 
-**Data, AI & Backend**
+**Data, backend & developer tools**
 
 <img src="https://skillicons.dev/icons?i=mysql,postgres,fastapi,firebase,docker,git,github,vscode" alt="MySQL, PostgreSQL, FastAPI, Firebase, Docker, Git, GitHub, VS Code" />
 
 </div>
 
 **Data & AI ecosystem:** Pandas · NumPy · Scikit-learn · Streamlit · Ollama · REST APIs · Power BI  
-**Currently exploring:** LLM-powered applications, reliable browser automation, API design, and software architecture.
+**Currently exploring:** LLM applications, reliable browser automation, API design, and software architecture.
 
-<sub>These represent tools I use or explore across projects; my experience level varies by technology.</sub>
+<sub>These technologies reflect tools used or explored across projects; experience and proficiency vary by tool.</sub>
 
-## `05 / GITHUB SIGNALS`
+## How I work
 
-<div align="center">
+- **Solve a real problem:** define the user need before choosing the technology.
+- **Build incrementally:** keep implementation understandable and testable.
+- **Verify outcomes:** use checks and explicit feedback rather than assuming success.
+- **Document honestly:** make setup, limitations, and decisions clear.
+- **Keep learning:** iterate as the project and my skills develop.
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ns-matrix&show_icons=true&hide_border=true&bg_color=050D09&title_color=00FF66&icon_color=00E5FF&text_color=E8FFF0&rank_icon=github" alt="GitHub profile statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ns-matrix&layout=compact&hide_border=true&bg_color=050D09&title_color=00FF66&text_color=E8FFF0" alt="Most used languages on GitHub" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=ns-matrix&hide_border=true&background=050D09&ring=00FF66&fire=00E5FF&currStreakLabel=00FF66&sideLabels=E8FFF0&currStreakNum=E8FFF0&sideNums=E8FFF0&dates=9BB9A5" alt="GitHub contribution streak" />
-
-</div>
-
-## `06 / CONNECT`
+## Connect
 
 <div align="center">
 
-I'm always glad to connect with people building thoughtful software, AI applications, and data products.
+I'm happy to connect with developers, data professionals, and builders working on useful software and applied AI.
 
-<a href="https://www.linkedin.com/in/nitin-kumar-singh-339210262/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-00E5FF?style=for-the-badge&logo=linkedin&logoColor=000000" alt="Connect on LinkedIn" /></a>
-<a href="https://github.com/ns-matrix"><img src="https://img.shields.io/badge/GITHUB-Follow%20My%20Work-00FF66?style=for-the-badge&logo=github&logoColor=000000" alt="Follow on GitHub" /></a>
-<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase"><img src="https://img.shields.io/badge/PORTFOLIO-Projects%20Lab-B9FF5C?style=for-the-badge&logo=vercel&logoColor=000000" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/nitin-kumar-singh-339210262/"><img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-00D9F5?style=for-the-badge&logo=linkedin&logoColor=07110B" alt="Connect on LinkedIn" /></a>
+<a href="https://github.com/ns-matrix"><img src="https://img.shields.io/badge/GitHub-Follow%20My%20Work-00F06A?style=for-the-badge&logo=github&logoColor=07110B" alt="Follow on GitHub" /></a>
+<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase"><img src="https://img.shields.io/badge/Portfolio-Projects%20Lab-B9FF66?style=for-the-badge&logo=vercel&logoColor=07110B" alt="Open portfolio" /></a>
 
 <br/><br/>
 
 <img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-footer.svg" width="100%" alt="NX Matrix — Building, learning, shipping" />
 
-<sub>Thanks for visiting. Explore a project, open an issue, or connect with me on LinkedIn.</sub>
+<sub>Thanks for stopping by. Explore the repositories, review a project, or connect on LinkedIn.</sub>
 
 </div>
