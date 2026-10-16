@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
+<title id="title">NX Matrix animated terminal</title>
+<desc id="desc">Animated neon terminal showing build, learn, experiment and ship.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020906"/><stop offset=".55" stop-color="#062416"/><stop offset="1" stop-color="#020906"/></linearGradient>
+ <linearGradient id="neon"><stop stop-color="#00e5ff"/><stop offset=".52" stop-color="#00ff66"/><stop offset="1" stop-color="#b9ff5c"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="150" rx="8" fill="url(#bg)"/>
+<g fill="#00ff66" opacity=".16" font-family="monospace" font-size="13">
+<text x="18" y="20">01001110 01011000 00101101 01001101 01000001 01010100 01010010 01001001 01011000</text>
+<text x="650" y="140">git commit -m "keep building"</text>
+</g>
+<path d="M0 35H1200 M0 116H1200" stroke="#00ff66" stroke-opacity=".3"/>
+<rect x="24" y="48" width="1152" height="58" rx="5" fill="#030b06" stroke="#087a3d"/>
+<circle cx="43" cy="63" r="4" fill="#ff5f57"/><circle cx="57" cy="63" r="4" fill="#febc2e"/><circle cx="71" cy="63" r="4" fill="#28c840"/>
+<text x="44" y="91" fill="#00ff66" font-family="monospace" font-size="20">&gt; NX_MATRIX:</text>
+<text x="196" y="91" fill="#eafff0" font-family="monospace" font-size="20">BUILD  ·  LEARN  ·  EXPERIMENT  ·  SHIP</text>
+<rect x="662" y="74" width="12" height="21" fill="#00ff66" filter="url(#glow)">
+ <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+</rect>
+<path d="M1080 48h70l26 29-26 29h-70" fill="none" stroke="url(#neon)" stroke-width="2" filter="url(#glow)"/>
+<text x="1101" y="84" fill="#00e5ff" font-family="monospace" font-size="13">LIVE</text>
+</svg>
