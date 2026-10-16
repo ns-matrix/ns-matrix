@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Refresh dynamic repository analytics, language pie chart, and newest-project card."""
 import json
-import base64
 import math
 import os
 import re
@@ -53,25 +52,6 @@ def parsed_date(value):
 def repo_activity_date(repo):
     # The GitHub API sorts repos by updated; prefer a real push where available.
     return repo.get("pushed_at") or repo.get("created_at") or repo.get("updated_at") or ""
-
-
-def recent_repositories(repos):
-    # Keep active work near the top while ensuring newly created repos aren't lost.
-    recent = sorted(repos, key=repo_activity_date, reverse=True)[:8]
-    rows = [
-        "| Repository | Language | Created | Latest push |",
-        "|---|---|---:|---:|",
-    ]
-    for repo in recent:
-        name = safe(repo["name"])
-        url = repo.get("html_url", f"https://github.com/{OWNER}/{repo['name']}")
-        language = safe(repo.get("language") or "—")
-        created = parsed_date(repo.get("created_at"))
-        pushed = parsed_date(repo.get("pushed_at"))
-        rows.append(
-            f"| [{name}]({url}) | {language} | {created} | {pushed} |"
-        )
-    return "\n".join(rows) if recent else "_No public repositories were returned by GitHub._"
 
 
 def recent_repositories(repos):
