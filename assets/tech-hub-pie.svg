@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430">
+<rect width="100%" height="100%" rx="18" fill="#050D09"/>
+<text x="32" y="38" fill="#00F06A" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">TECH HUB · CODE DISTRIBUTION</text>
+<text x="32" y="63" fill="#9CB7A4" font-family="Segoe UI,Arial,sans-serif" font-size="12">This chart refreshes automatically from GitHub language-byte totals.</text>
+<circle cx="245" cy="215" r="145" fill="#00F06A"/>
+<text x="455" y="120" fill="#E8FFF0" font-family="Segoe UI,Arial,sans-serif" font-size="17">Loading language data…</text>
+</svg>
