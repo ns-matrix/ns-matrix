@@ -57,8 +57,8 @@ def recent_repositories(repos):
     # Keep active work near the top while ensuring newly created repos aren't lost.
     recent = sorted(repos, key=repo_activity_date, reverse=True)[:8]
     rows = [
-        "| Repository | Language | Created | Latest push | Stars |",
-        "|---|---|---:|---:|---:|",
+        "| Repository | Language | Created | Latest push |",
+        "|---|---|---:|---:|",
     ]
     for repo in recent:
         name = safe(repo["name"])
@@ -67,8 +67,7 @@ def recent_repositories(repos):
         created = parsed_date(repo.get("created_at"))
         pushed = parsed_date(repo.get("pushed_at"))
         rows.append(
-            f"| [{name}]({url}) | {language} | {created} | {pushed} | "
-            f"{repo.get('stargazers_count', 0)} |"
+            f"| [{name}]({url}) | {language} | {created} | {pushed} |"
         )
     return "\n".join(rows) if recent else "_No public repositories were returned by GitHub._"
 
