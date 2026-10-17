@@ -45,9 +45,9 @@ This featured card is generated from GitHub repository metadata. It automaticall
 <tr><td>
 <p><b>🆕 LATEST REPOSITORY</b></p>
 <h3><a href="https://github.com/ns-matrix/nxmatrix-teams-ai">🚀 nxmatrix-teams-ai</a></h3>
-<p>Connect Microsoft Teams-compatible chat to Ollama or an OpenAI-compatible AI model.</p>
+<p>Guide</p>
 <ul><li>Receives chat activities through the Microsoft Teams SDK.</li><li>Sends prompts to a configurable language model API.</li><li>Supports local Ollama and compatible hosted API providers.</li></ul>
-<p><b>Primary language:</b> Python &nbsp; · &nbsp; <b>Created:</b> 2026-10-15 &nbsp; · &nbsp; <b>Latest push:</b> 2026-10-15</p>
+<p><b>Primary language:</b> Python &nbsp; · &nbsp; <b>Created:</b> 2026-10-15 &nbsp; · &nbsp; <b>Latest push:</b> 2026-10-16</p>
 <p><a href="https://github.com/ns-matrix/nxmatrix-teams-ai">Explore the latest repository →</a></p>
 </td></tr></table>
 <!-- AUTO:LATEST_PROJECT:END -->
@@ -59,8 +59,8 @@ The table below is refreshed automatically from the GitHub API, ordered by the l
 <!-- AUTO:RECENT_REPOS:START -->
 | Repository | Language | Created | Latest push |
 |---|---|---:|---:|
+| [nxmatrix-teams-ai](https://github.com/ns-matrix/nxmatrix-teams-ai) | Python | 2026-10-15 | 2026-10-16 |
 | [portfolio](https://github.com/ns-matrix/portfolio) | HTML | 2026-09-10 | 2026-10-16 |
-| [nxmatrix-teams-ai](https://github.com/ns-matrix/nxmatrix-teams-ai) | Python | 2026-10-15 | 2026-10-15 |
 | [axiom-linkedin-ai](https://github.com/ns-matrix/axiom-linkedin-ai) | Python | 2026-10-13 | 2026-10-13 |
 | [codeguard-ai](https://github.com/ns-matrix/codeguard-ai) | Python | 2026-09-23 | 2026-09-23 |
 | [RETAIL](https://github.com/ns-matrix/RETAIL) | JavaScript | 2026-08-30 | 2026-08-30 |
