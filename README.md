@@ -51,20 +51,20 @@ This GitHub profile is the technical home of NX Matrix: source code, engineering
 The newest eligible public repository, selected automatically from GitHub metadata.
 
 <!-- AUTO:LATEST_PROJECT:START -->
-<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#071B14">
-<tr><td bgcolor="#4ADE80" height="3"></td></tr>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#101B29">
+<tr><td bgcolor="#78E4DF" height="4"></td></tr>
 <tr><td align="center" style="padding:26px 18px;">
-<a href="https://github.com/ns-matrix/whatsapp-message-manager-android"><img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/Neon%20WhatsApp%20Message%20Manager%20Icon.png" width="112" alt="Neon WhatsApp Message Manager app icon" /></a>
-<p align="center"><sub>NX MATRIX / FEATURED BUILD · LATEST COMMIT · PUBLIC REPOSITORY</sub></p>
-<h2 align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">whatsapp-message-manager-android</a></h2>
+<a href="https://github.com/ns-matrix/whatsapp-message-manager-android"><img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/nx-matrix-logo.svg" width="112" alt="NX Matrix logo" /></a>
+<p align="center"><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST COMMIT · PUBLIC REPOSITORY</sub></p>
+<h2 align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">🚀 whatsapp-message-manager-android</a></h2>
 <p align="center">Android companion app for NX Matrix WhatsApp Message Manager</p>
 
 <hr/>
 <p align="center"><b>LANGUAGE</b> &nbsp; Kotlin &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-10-30 &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; 2026-11-16</p>
 <div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/whatsapp-message-manager-android/commit/5294f473d696efde5c66721c4c5bcfe08619b23d">Update image width in README.md</a></p></div>
-<p align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">VIEW PROJECT</a></p>
+<p align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">VIEW PROJECT &nbsp; ↗</a></p>
 </td></tr>
-<tr><td bgcolor="#22C55E" height="3"></td></tr>
+<tr><td bgcolor="#E65EAA" height="3"></td></tr>
 </table>
 <!-- AUTO:LATEST_PROJECT:END -->
 
@@ -73,9 +73,7 @@ The newest eligible public repository, selected automatically from GitHub metada
 This visual is generated from GitHub's language-byte statistics across public, non-fork, non-archived repositories. Percentages represent detected code volume — **not skill level or proficiency**.
 
 <!-- AUTO:TECH_HUB:START -->
-<div align="center">
-<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />
-</div>
+<div align="center">\n<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />\n</div>
 <!-- AUTO:TECH_HUB:END -->
 
 ## ENGINEERING TOOLKIT
