@@ -50,17 +50,16 @@ The newest eligible public repository, selected automatically from GitHub metada
 <!-- AUTO:LATEST_PROJECT:START -->
 <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#101B29">
 <tr><td bgcolor="#78E4DF" height="4"></td></tr>
-<tr><td cellpadding="22">
-<table width="100%" border="0" cellpadding="18" cellspacing="0">
-<tr><td>
-<p><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST PUBLIC REPOSITORY</sub></p>
-<h2><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">🚀 whatsapp-message-manager-android</a></h2>
-<p>Android companion app for NX Matrix WhatsApp Message Manager</p>
+<tr><td align="center" style="padding:26px 18px;">
+<a href="https://github.com/ns-matrix/whatsapp-message-manager-android"><img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/nx-matrix-logo.svg" width="112" alt="NX Matrix logo" /></a>
+<p align="center"><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST UPDATED PUBLIC REPOSITORY</sub></p>
+<h2 align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">🚀 whatsapp-message-manager-android</a></h2>
+<p align="center">Android companion app for NX Matrix WhatsApp Message Manager</p>
 
 <hr/>
-<p><b>LANGUAGE</b> &nbsp; Kotlin &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-10-30 &nbsp;&nbsp; <b>UPDATED</b> &nbsp; 2026-10-30</p>
-<p><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">VIEW PROJECT &nbsp; ↗</a></p>
-</td></tr></table>
+<p align="center"><b>LANGUAGE</b> &nbsp; Kotlin &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-10-30 &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; 2026-10-30</p>
+<div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/whatsapp-message-manager-android/commit/00ca1f9ffb6cfbb0098cf7e15f0a584d444fa148">Fix Android SDK setup in APK workflow</a></p></div>
+<p align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">VIEW PROJECT &nbsp; ↗</a></p>
 </td></tr>
 <tr><td bgcolor="#E65EAA" height="3"></td></tr>
 </table>
@@ -72,12 +71,7 @@ The newest eligible public repository, selected automatically from GitHub metada
 This visual is generated from GitHub's language-byte statistics across public, non-fork, non-archived repositories. Percentages represent detected code volume — **not skill level or proficiency**.
 
 <!-- AUTO:TECH_HUB:START -->
-<div align="center">
-<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />
-<sub>Repository language-byte distribution · automatically refreshed by NX Matrix GitHub Actions</sub>
-</div>
-
-_Based on GitHub language-byte statistics for 12 public, non-fork, non-archived repositories. Code share is not a measure of developer proficiency._
+<div align="center">\n<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />\n</div>
 <!-- AUTO:TECH_HUB:END -->
 
 ## Engineering toolkit
