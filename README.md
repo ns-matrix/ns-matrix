@@ -71,11 +71,7 @@ The newest eligible public repository, selected automatically from GitHub metada
 This visual is generated from GitHub's language-byte statistics across public, non-fork, non-archived repositories. Percentages represent detected code volume — **not skill level or proficiency**.
 
 <!-- AUTO:TECH_HUB:START -->
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />
-
-</div>
+<div align="center">\n<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />\n</div>
 <!-- AUTO:TECH_HUB:END -->
 
 ## 🛠️ ENGINEERING TOOLKIT
