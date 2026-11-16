@@ -58,18 +58,7 @@ def repo_activity_date(repo):
 def recent_repositories(repos):
     """Most recently pushed repositories, excluding forks and archived repositories."""
     recent = sorted(repos, key=repo_activity_date, reverse=True)[:8]
-    rows = [
-        "| Repository | Language | Created | Latest push |",
-        "|---|---|---:|---:|",
-    ]
-    for repo in recent:
-        name = safe(repo["name"])
-        url = repo.get("html_url", f"https://github.com/{OWNER}/{repo['name']}")
-        language = safe(repo.get("language") or "—")
-        created = parsed_date(repo.get("created_at"))
-        pushed = parsed_date(repo.get("pushed_at"))
-        rows.append(f"| [{name}]({url}) | {language} | {created} | {pushed} |")
-    return "\n".join(rows) if recent else "_No public repositories were returned by GitHub._"
+    return ""
 
 
 def repo_readme_details(repo):
@@ -237,16 +226,11 @@ def tech_hub(repos):
     with open("assets/tech-hub-pie.svg", "wb") as file:
         file.write(svg_bytes)
 
-    rows = [
+    return "\\n".join([
         '<div align="center">',
         '<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />',
-        '<sub>Repository language-byte distribution · automatically refreshed by NX Matrix GitHub Actions</sub>',
         '</div>',
-        '',
-        f"_Based on GitHub language-byte statistics for {len(repos)} public, non-fork, non-archived repositories. "
-        "Code share is not a measure of developer proficiency._"
-    ]
-    return "\n".join(rows)
+    ])
 
 
 def replace_section(readme, name, body):
