@@ -44,11 +44,11 @@ This featured card is generated from GitHub repository metadata. It automaticall
 <table width="100%" border="0" cellpadding="12" cellspacing="0">
 <tr><td>
 <p><b>🆕 LATEST REPOSITORY</b></p>
-<h3><a href="https://github.com/ns-matrix/nxmatrix-teams-ai">🚀 nxmatrix-teams-ai</a></h3>
-<p>Guide</p>
-<ul><li>Receives chat activities through the Microsoft Teams SDK.</li><li>Sends prompts to a configurable language model API.</li><li>Supports local Ollama and compatible hosted API providers.</li></ul>
-<p><b>Primary language:</b> Python &nbsp; · &nbsp; <b>Created:</b> 2026-10-15 &nbsp; · &nbsp; <b>Latest push:</b> 2026-10-16</p>
-<p><a href="https://github.com/ns-matrix/nxmatrix-teams-ai">Explore the latest repository →</a></p>
+<h3><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">🚀 whatsapp-message-manager-android</a></h3>
+<p>Android companion app for NX Matrix WhatsApp Message Manager</p>
+
+<p><b>Primary language:</b> Kotlin &nbsp; · &nbsp; <b>Created:</b> 2026-10-30 &nbsp; · &nbsp; <b>Latest push:</b> 2026-10-30</p>
+<p><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">Explore the latest repository →</a></p>
 </td></tr></table>
 <!-- AUTO:LATEST_PROJECT:END -->
 
@@ -59,14 +59,14 @@ The table below is refreshed automatically from the GitHub API, ordered by the l
 <!-- AUTO:RECENT_REPOS:START -->
 | Repository | Language | Created | Latest push |
 |---|---|---:|---:|
+| [whatsapp-message-manager-android](https://github.com/ns-matrix/whatsapp-message-manager-android) | Kotlin | 2026-10-30 | 2026-10-30 |
+| [portfolio](https://github.com/ns-matrix/portfolio) | HTML | 2026-09-10 | 2026-10-29 |
+| [rickshaw-rush](https://github.com/ns-matrix/rickshaw-rush) | HTML | 2026-10-25 | 2026-10-28 |
 | [nxmatrix-teams-ai](https://github.com/ns-matrix/nxmatrix-teams-ai) | Python | 2026-10-15 | 2026-10-16 |
-| [portfolio](https://github.com/ns-matrix/portfolio) | HTML | 2026-09-10 | 2026-10-16 |
 | [axiom-linkedin-ai](https://github.com/ns-matrix/axiom-linkedin-ai) | Python | 2026-10-13 | 2026-10-13 |
 | [codeguard-ai](https://github.com/ns-matrix/codeguard-ai) | Python | 2026-09-23 | 2026-09-23 |
 | [RETAIL](https://github.com/ns-matrix/RETAIL) | JavaScript | 2026-08-30 | 2026-08-30 |
 | [petal-rush](https://github.com/ns-matrix/petal-rush) | HTML | 2026-03-17 | 2026-08-08 |
-| [Project](https://github.com/ns-matrix/Project) | Python | 2026-04-02 | 2026-06-02 |
-| [AMBIEANT-MUSIC](https://github.com/ns-matrix/AMBIEANT-MUSIC) | HTML | 2026-05-05 | 2026-05-05 |
 <!-- AUTO:RECENT_REPOS:END -->
 
 ## Tech hub · detected code distribution
@@ -80,18 +80,18 @@ This section aggregates GitHub's language-byte statistics across my public, non-
 
 | Language | Share | Repositories |
 |---|---:|---:|
-| HTML | 76.9% | 8 |
-| JavaScript | 8.5% | 8 |
-| Python | 7.7% | 4 |
-| TypeScript | 3.8% | 2 |
-| CSS | 2.1% | 6 |
-| PLpgSQL | 0.7% | 2 |
+| HTML | 79.3% | 9 |
+| JavaScript | 7.5% | 8 |
+| Python | 6.9% | 5 |
+| TypeScript | 3.3% | 2 |
+| CSS | 1.9% | 6 |
+| PLpgSQL | 0.6% | 2 |
+| Kotlin | 0.2% | 1 |
 | Batchfile | 0.1% | 2 |
 | PowerShell | 0.1% | 1 |
 | Shell | 0.0% | 1 |
-| Dockerfile | 0.0% | 1 |
 
-_Based on GitHub language-byte statistics for 10 public, non-fork, non-archived repositories. Code share is not a measure of developer proficiency._
+_Based on GitHub language-byte statistics for 12 public, non-fork, non-archived repositories. Code share is not a measure of developer proficiency._
 <!-- AUTO:TECH_HUB:END -->
 
 ## Engineering toolkit
