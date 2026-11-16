@@ -52,22 +52,6 @@ This featured card is generated from GitHub repository metadata. It automaticall
 </td></tr></table>
 <!-- AUTO:LATEST_PROJECT:END -->
 
-## Recently active repositories
-
-The table below is refreshed automatically from the GitHub API, ordered by the latest repository push. It is intended to show what has been active recently, not to replace the project showcase.
-
-<!-- AUTO:RECENT_REPOS:START -->
-| Repository | Language | Created | Latest push |
-|---|---|---:|---:|
-| [whatsapp-message-manager-android](https://github.com/ns-matrix/whatsapp-message-manager-android) | Kotlin | 2026-10-30 | 2026-10-30 |
-| [portfolio](https://github.com/ns-matrix/portfolio) | HTML | 2026-09-10 | 2026-10-29 |
-| [rickshaw-rush](https://github.com/ns-matrix/rickshaw-rush) | HTML | 2026-10-25 | 2026-10-28 |
-| [nxmatrix-teams-ai](https://github.com/ns-matrix/nxmatrix-teams-ai) | Python | 2026-10-15 | 2026-10-16 |
-| [browser-automation-assistant](https://github.com/ns-matrix/browser-automation-assistant) | Python | 2026-10-13 | 2026-10-13 |
-| [codeguard-ai](https://github.com/ns-matrix/codeguard-ai) | Python | 2026-09-23 | 2026-09-23 |
-| [RETAIL](https://github.com/ns-matrix/RETAIL) | JavaScript | 2026-08-30 | 2026-08-30 |
-| [petal-rush](https://github.com/ns-matrix/petal-rush) | HTML | 2026-03-17 | 2026-08-08 |
-<!-- AUTO:RECENT_REPOS:END -->
 
 ## Tech hub · detected code distribution
 
@@ -78,20 +62,6 @@ This section aggregates GitHub's language-byte statistics across my public, non-
 <img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />
 </div>
 
-| Language | Share | Repositories |
-|---|---:|---:|
-| HTML | 79.3% | 9 |
-| JavaScript | 7.5% | 8 |
-| Python | 6.9% | 5 |
-| TypeScript | 3.3% | 2 |
-| CSS | 1.9% | 6 |
-| PLpgSQL | 0.6% | 2 |
-| Kotlin | 0.2% | 1 |
-| Batchfile | 0.1% | 2 |
-| PowerShell | 0.1% | 1 |
-| Shell | 0.0% | 1 |
-
-_Based on GitHub language-byte statistics for 12 public, non-fork, non-archived repositories. Code share is not a measure of developer proficiency._
 <!-- AUTO:TECH_HUB:END -->
 
 ## Engineering toolkit
