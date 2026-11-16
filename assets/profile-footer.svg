@@ -1,8 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" role="img" aria-labelledby="title desc">
-<title id="title">NX Matrix — Ideas, Intelligence, Impact</title>
-<desc id="desc">Dark teal footer banner with cyan and magenta accents.</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#101B29"/><stop offset=".5" stop-color="#203744"/><stop offset="1" stop-color="#101B29"/></linearGradient><linearGradient id="line"><stop stop-color="#78E4DF"/><stop offset="1" stop-color="#E65EAA"/></linearGradient></defs>
-<rect width="1200" height="100" rx="12" fill="url(#bg)"/><path d="M0 2H1200M0 98H1200" stroke="url(#line)" stroke-width="2"/>
-<text x="600" y="43" fill="#78E4DF" text-anchor="middle" font-family="monospace" font-size="20" font-weight="700" letter-spacing="4">NX MATRIX</text>
-<text x="600" y="70" fill="#E6F4F1" text-anchor="middle" font-family="monospace" font-size="13" letter-spacing="3">IDEAS  |  INTELLIGENCE  |  IMPACT</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" shape-rendering="crispEdges">
+<rect width="1200" height="112" fill="#0b1a27"/><path d="M0 4H1200M0 108H1200" stroke="#66e4d8" stroke-width="4"/><g fill="#e65eaa"><rect x="42" y="30" width="14" height="14"/><rect x="62" y="50" width="14" height="14"/></g><g fill="#66e4d8"><rect x="1122" y="30" width="14" height="14"/><rect x="1142" y="50" width="14" height="14"/></g>
+<text x="600" y="48" fill="#66e4d8" font-family="monospace" font-size="23" font-weight="bold" letter-spacing="5" text-anchor="middle">NX MATRIX · PIXEL EDITION</text><text x="600" y="78" fill="#e9f8f5" font-family="monospace" font-size="14" letter-spacing="4" text-anchor="middle">IDEAS  |  INTELLIGENCE  |  IMPACT</text></svg>
