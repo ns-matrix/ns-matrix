@@ -48,16 +48,21 @@ This GitHub profile is the technical view of NX Matrix: source code, engineering
 The newest eligible public repository, selected automatically from GitHub metadata.
 
 <!-- AUTO:LATEST_PROJECT:START -->
-<table width="100%" cellpadding="0" cellspacing="0" border="0">
-  <tr><td bgcolor="#142633" style="padding:24px;border:1px solid #31505A;border-radius:14px;">
-    <table width="100%" cellpadding="0" cellspacing="0" border="0">
-      <tr><td><p><b><font color="#78E4DF">NX MATRIX · FEATURED BUILD</font></b></p></td><td align="right"><sub><font color="#E65EAA">LATEST RELEASE</font></sub></td></tr>
-    </table>
-    <h2><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">WhatsApp Message Manager · Android</a></h2>
-    <p><font color="#D7E7E5">A companion Android application for NX Matrix WhatsApp Message Manager.</font></p>
-    <p><sub><b>STACK</b> &nbsp; Kotlin &nbsp; · &nbsp; <b>CREATED</b> &nbsp; 30 Oct 2026 &nbsp; · &nbsp; <b>UPDATED</b> &nbsp; 30 Oct 2026</sub></p>
-    <p><a href="https://github.com/ns-matrix/whatsapp-message-manager-android"><b>VIEW REPOSITORY &nbsp; →</b></a></p>
-  </td></tr>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#101B29">
+<tr><td bgcolor="#78E4DF" height="4"></td></tr>
+<tr><td cellpadding="22">
+<table width="100%" border="0" cellpadding="18" cellspacing="0">
+<tr><td>
+<p><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST PUBLIC REPOSITORY</sub></p>
+<h2><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">🚀 whatsapp-message-manager-android</a></h2>
+<p>Android companion app for NX Matrix WhatsApp Message Manager</p>
+
+<hr/>
+<p><b>LANGUAGE</b> &nbsp; Kotlin &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-10-30 &nbsp;&nbsp; <b>UPDATED</b> &nbsp; 2026-10-30</p>
+<p><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">VIEW PROJECT &nbsp; ↗</a></p>
+</td></tr></table>
+</td></tr>
+<tr><td bgcolor="#E65EAA" height="3"></td></tr>
 </table>
 <!-- AUTO:LATEST_PROJECT:END -->
 
@@ -68,8 +73,11 @@ This visual is generated from GitHub's language-byte statistics across public, n
 
 <!-- AUTO:TECH_HUB:START -->
 <div align="center">
-<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="NX Matrix repository language distribution chart" />
+<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />
+<sub>Repository language-byte distribution · automatically refreshed by NX Matrix GitHub Actions</sub>
 </div>
+
+_Based on GitHub language-byte statistics for 12 public, non-fork, non-archived repositories. Code share is not a measure of developer proficiency._
 <!-- AUTO:TECH_HUB:END -->
 
 ## Engineering toolkit
