@@ -151,8 +151,8 @@ def get_latest_activity_project(repos):
             )
             commit_url = commit.get("html_url") or url
             commit_date = parsed_date(
-                commit_data.get("author", {}).get("date")
-                or commit_data.get("committer", {}).get("date")
+                commit_data.get("committer", {}).get("date")
+                or commit_data.get("author", {}).get("date")
                 or latest.get("pushed_at")
             )
     except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, IndexError, KeyError):
@@ -182,7 +182,7 @@ def get_latest_activity_project(repos):
         '<tr><td bgcolor="#78E4DF" height="4"></td></tr>',
         '<tr><td align="center" style="padding:26px 18px;">',
         f'<a href="{url}"><img src="{logo_url}" width="112" alt="NX Matrix logo" /></a>',
-        '<p align="center"><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST UPDATED PUBLIC REPOSITORY</sub></p>',
+        '<p align="center"><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST COMMIT · PUBLIC REPOSITORY</sub></p>',
         f'<h2 align="center"><a href="{url}">🚀 {html.escape(name)}</a></h2>',
         f'<p align="center">{html.escape(description)}</p>',
         feature_html,
