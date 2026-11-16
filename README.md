@@ -78,19 +78,6 @@ This section aggregates GitHub's language-byte statistics across my public, non-
 <img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />
 </div>
 
-| Language | Share | Repositories |
-|---|---:|---:|
-| HTML | 79.3% | 9 |
-| JavaScript | 7.5% | 8 |
-| Python | 6.9% | 5 |
-| TypeScript | 3.3% | 2 |
-| CSS | 1.9% | 6 |
-| PLpgSQL | 0.6% | 2 |
-| Kotlin | 0.2% | 1 |
-| Batchfile | 0.1% | 2 |
-| PowerShell | 0.1% | 1 |
-| Shell | 0.0% | 1 |
-
 _Based on GitHub language-byte statistics for 12 public, non-fork, non-archived repositories. Code share is not a measure of developer proficiency._
 <!-- AUTO:TECH_HUB:END -->
 
