@@ -145,15 +145,22 @@ def get_latest_created_project():
     if features:
         feature_html = "<ul>" + "".join(f"<li>{html.escape(feature)}</li>" for feature in features) + "</ul>"
     return "\n".join([
-        '<table width="100%" border="0" cellpadding="12" cellspacing="0">',
+        '<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#101B29">',
+        '<tr><td bgcolor="#78E4DF" height="4"></td></tr>',
+        '<tr><td cellpadding="22">',
+        '<table width="100%" border="0" cellpadding="18" cellspacing="0">',
         '<tr><td>',
-        '<p><b>🆕 LATEST REPOSITORY</b></p>',
-        f'<h3><a href="{url}">🚀 {html.escape(name)}</a></h3>',
+        '<p><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST PUBLIC REPOSITORY</sub></p>',
+        f'<h2><a href="{url}">🚀 {html.escape(name)}</a></h2>',
         f'<p>{html.escape(description)}</p>',
         feature_html,
-        f'<p><b>Primary language:</b> {html.escape(language)} &nbsp; · &nbsp; <b>Created:</b> {created} &nbsp; · &nbsp; <b>Latest push:</b> {pushed}</p>',
-        f'<p><a href="{url}">Explore the latest repository →</a></p>',
+        '<hr/>',
+        f'<p><b>LANGUAGE</b> &nbsp; {html.escape(language)} &nbsp;&nbsp; <b>CREATED</b> &nbsp; {created} &nbsp;&nbsp; <b>UPDATED</b> &nbsp; {pushed}</p>',
+        f'<p><a href="{url}">VIEW PROJECT &nbsp; ↗</a></p>',
         '</td></tr></table>',
+        '</td></tr>',
+        '<tr><td bgcolor="#E65EAA" height="3"></td></tr>',
+        '</table>',
     ])
 
 
@@ -233,19 +240,12 @@ def tech_hub(repos):
     rows = [
         '<div align="center">',
         '<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />',
+        '<sub>Repository language-byte distribution · automatically refreshed by NX Matrix GitHub Actions</sub>',
         '</div>',
         '',
-        '| Language | Share | Repositories |',
-        '|---|---:|---:|',
-    ]
-    for language, count in ranked:
-        pct = count / total_bytes * 100
-        rows.append(f"| {safe(language)} | {pct:.1f}% | {language_repos[language]} |")
-    rows.append("")
-    rows.append(
         f"_Based on GitHub language-byte statistics for {len(repos)} public, non-fork, non-archived repositories. "
         "Code share is not a measure of developer proficiency._"
-    )
+    ]
     return "\n".join(rows)
 
 
@@ -263,7 +263,6 @@ def main():
     with open(README, "r", encoding="utf-8") as file:
         readme = file.read()
 
-    readme = replace_section(readme, "RECENT_REPOS", recent_repositories(repos))
     readme = replace_section(readme, "LATEST_PROJECT", get_latest_created_project())
     readme = replace_section(readme, "TECH_HUB", tech_hub(repos))
 
