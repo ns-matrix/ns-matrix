@@ -98,7 +98,7 @@ def repo_readme_details(repo):
                 summary = plain
                 break
     if not summary:
-        paragraphs = re.findall(r"(?m)^(?!#|>|\\[|\\s*$)(.{36,})$", content)
+        paragraphs = re.findall(r"(?m)^(?!#|>|\[|\s*$)(.{36,})$", content)
         if paragraphs:
             summary = re.sub(r"\s+", " ", paragraphs[0]).strip()
 
