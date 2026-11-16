@@ -51,14 +51,14 @@ The newest eligible public repository, selected automatically from GitHub metada
 <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#101B29">
 <tr><td bgcolor="#78E4DF" height="4"></td></tr>
 <tr><td align="center" style="padding:26px 18px;">
-<a href="https://github.com/ns-matrix/whatsapp-message-manager-android"><img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/Neon WhatsApp Message Manager Icon.png" width="112" alt="NX Matrix logo" /></a>
+<a href="https://github.com/ns-matrix/whatsapp-message-manager-android"><img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/nx-matrix-logo.svg" width="112" alt="NX Matrix logo" /></a>
 <p align="center"><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST COMMIT · PUBLIC REPOSITORY</sub></p>
 <h2 align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">🚀 whatsapp-message-manager-android</a></h2>
 <p align="center">Android companion app for NX Matrix WhatsApp Message Manager</p>
 
 <hr/>
-<p align="center"><b>LANGUAGE</b> &nbsp; Kotlin &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-10-30 &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; 2026-10-30</p>
-<div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/whatsapp-message-manager-android/commit/00ca1f9ffb6cfbb0098cf7e15f0a584d444fa148">Fix Android SDK setup in APK workflow</a></p></div>
+<p align="center"><b>LANGUAGE</b> &nbsp; Kotlin &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-10-30 &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; 2026-11-16</p>
+<div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/whatsapp-message-manager-android/commit/5294f473d696efde5c66721c4c5bcfe08619b23d">Update image width in README.md</a></p></div>
 <p align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">VIEW PROJECT &nbsp; ↗</a></p>
 </td></tr>
 <tr><td bgcolor="#E65EAA" height="3"></td></tr>
