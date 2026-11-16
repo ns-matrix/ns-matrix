@@ -20,7 +20,7 @@ Palette: Forest #10251F · Moss #1F3A30 · Leaf #76C893 · Mint #B7E4C7 · Code 
 
 ---
 
-## 🌿 NX MATRIX · PIXEL ENGINEERING HUB
+## NX MATRIX · PIXEL ENGINEERING HUB
 
 I'm **Nitin Kumar Singh**, a Data Science graduate from the **University of Mumbai** (2026), currently gaining industry experience as an intern with the **AI COE team at the National Stock Exchange of India (NSE)**.
 
@@ -37,14 +37,14 @@ The goal is to turn ideas into working systems, understand the trade-offs behind
 
 This GitHub profile is the technical home of NX Matrix: source code, engineering activity, repository language analytics, and recent project updates. Visit the **[Main Portfolio](https://portfolio-psi-ochre-jabym9b7ir.vercel.app)** for my personal website and the separate **[Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)** for project demos and feature showcases.
 
-## 🌱 CURRENT ENGINEERING FOCUS
+## CURRENT ENGINEERING FOCUS
 
 - **Application development:** frontend experiences, backend services, APIs, databases, and debugging.
 - **AI systems:** local model workflows, LLM integrations, developer utilities, and practical automation.
 - **Data science:** Python-based analysis, machine learning, and data visualisation.
 - **Automation infrastructure:** browser extensions, MCP services, reusable skills, and supervised execution.
 
-## 🧩 FEATURED PROJECT
+## FEATURED PROJECT
 
 The newest eligible public repository, selected automatically from GitHub metadata.
 
@@ -54,7 +54,7 @@ The newest eligible public repository, selected automatically from GitHub metada
 <tr><td align="center" style="padding:26px 18px;">
 <a href="https://github.com/ns-matrix/whatsapp-message-manager-android"><img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/nx-matrix-logo.svg" width="112" alt="NX Matrix logo" /></a>
 <p align="center"><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST COMMIT · PUBLIC REPOSITORY</sub></p>
-<h2 align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">🚀 whatsapp-message-manager-android</a></h2>
+<h2 align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">whatsapp-message-manager-android</a></h2>
 <p align="center">Android companion app for NX Matrix WhatsApp Message Manager</p>
 
 <hr/>
@@ -66,7 +66,7 @@ The newest eligible public repository, selected automatically from GitHub metada
 </table>
 <!-- AUTO:LATEST_PROJECT:END -->
 
-## 🌳 TECH HUB · REPOSITORY LANGUAGE ANALYTICS
+## TECH HUB · REPOSITORY LANGUAGE ANALYTICS
 
 This visual is generated from GitHub's language-byte statistics across public, non-fork, non-archived repositories. Percentages represent detected code volume — **not skill level or proficiency**.
 
@@ -74,7 +74,7 @@ This visual is generated from GitHub's language-byte statistics across public, n
 <div align="center">\n<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />\n</div>
 <!-- AUTO:TECH_HUB:END -->
 
-## 🛠️ ENGINEERING TOOLKIT
+## ENGINEERING TOOLKIT
 
 Technologies used or explored across projects. The analytics above are generated from repository data; these badges are a concise overview of my current engineering toolkit.
 
@@ -97,7 +97,7 @@ Technologies used or explored across projects. The analytics above are generated
 
 **Also exploring:** Pandas · NumPy · Streamlit · REST APIs · Power BI · local LLMs · MCP
 
-## 📡 GITHUB ACTIVITY
+## GITHUB ACTIVITY
 
 Live GitHub account insights. These cards are provided by GitHub Readme Stats and may occasionally be unavailable or rate-limited.
 
@@ -116,14 +116,14 @@ Live GitHub account insights. These cards are provided by GitHub Readme Stats an
 
 </div>
 
-## 🌲 HOW I APPROACH ENGINEERING
+## HOW I APPROACH ENGINEERING
 
 - **Understand first:** inspect the requirements and existing system before changing code.
 - **Build deliberately:** make focused changes and keep the implementation understandable.
 - **Verify the result:** test important paths and document failures or limitations honestly.
 - **Keep learning:** use repository history, issues, reviews, and experiments to improve the system.
 
-## 🌐 EXPLORE NX MATRIX
+## EXPLORE NX MATRIX
 
 <div align="center">
 
