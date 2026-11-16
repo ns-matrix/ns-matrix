@@ -1,133 +1,161 @@
 <!--
-NX MATRIX · GITHUB PROFILE
-Ideas | Intelligence | Impact
-Engineering notes, practical software, applied AI, and repository-derived activity.
+  NX MATRIX | GitHub Profile
+  Theme: Pixel-art cyberpunk engineering workstation
+  Palette: #101B29 #142633 #203744 | #66C8C2 #78E4DF #E65EAA
+  Motto: Ideas | Intelligence | Impact
 -->
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-header.svg" width="100%" alt="NX Matrix — Pixel Engineering Workspace | Ideas, Intelligence, Impact" />
+<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-header.svg" width="100%" alt="NX Matrix pixel-art cyberpunk workstation banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=78E4DF&center=true&vCenter=true&width=850&lines=SOFTWARE+ENGINEERING+%7C+DATA+SCIENCE;Building+useful+software+and+AI+systems;Ideas+%7C+Intelligence+%7C+Impact" alt="NX Matrix animated introduction" />
+<br/>
 
-<a href="https://github.com/ns-matrix?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-Source%20%26%20Engineering-78E4DF?style=for-the-badge&logo=github&logoColor=101B29" alt="GitHub repositories" /></a>
-<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-Personal%20Website-66C8C2?style=for-the-badge&logo=vercel&logoColor=101B29" alt="Main portfolio" /></a>
-<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase"><img src="https://img.shields.io/badge/PROJECTS%20LAB-Project%20Showcase-E65EAA?style=for-the-badge&logo=vercel&logoColor=101B29" alt="Projects Lab" /></a>
-<a href="https://www.linkedin.com/in/nitin-kumar-singh-339210262/"><img src="https://img.shields.io/badge/LINKEDIN-Professional%20Profile-78E4DF?style=for-the-badge&logo=linkedin&logoColor=101B29" alt="LinkedIn profile" /></a>
+<a href="https://github.com/ns-matrix?tab=repositories">
+  <img src="https://img.shields.io/badge/▣_SOURCE_CODE-GITHUB-142633?style=for-the-badge&logo=github&logoColor=78E4DF" alt="GitHub repositories" />
+</a>
+<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app">
+  <img src="https://img.shields.io/badge/⌂_PORTFOLIO-EXPLORE-142633?style=for-the-badge&logo=vercel&logoColor=78E4DF" alt="Portfolio" />
+</a>
+<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase">
+  <img src="https://img.shields.io/badge/▤_PROJECTS_LAB-BUILDS-142633?style=for-the-badge&logo=probot&logoColor=E65EAA" alt="Projects Lab" />
+</a>
+<a href="https://www.linkedin.com/in/nitin-kumar-singh-339210262/">
+  <img src="https://img.shields.io/badge/↗_LINKEDIN-CONNECT-142633?style=for-the-badge&logo=linkedin&logoColor=78E4DF" alt="LinkedIn" />
+</a>
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=78E4DF&center=true&vCenter=true&width=780&lines=SOFTWARE+ENGINEERING;APPLIED+AI+%26+AUTOMATION;DATA+SCIENCE+%26+INTELLIGENCE;IDEAS+%7C+INTELLIGENCE+%7C+IMPACT" alt="Software engineering, applied AI, automation and data science" />
 
 </div>
 
 ---
 
-## ▣ NX MATRIX · PIXEL ENGINEERING HUB
+## <img src="https://img.shields.io/badge/01-PLAYER_PROFILE-142633?style=flat-square&labelColor=101B29" alt="01 Player profile" />
 
-I'm **Nitin Kumar Singh**, a Data Science graduate from the **University of Mumbai** (2026), currently gaining industry experience as an intern with the **AI COE team at the National Stock Exchange of India (NSE)**.
+### Hey, I'm Nitin Kumar Singh.
 
-**NX Matrix** is my engineering workspace for exploring and building practical software across:
+I’m a software developer and Data Science graduate from the **University of Mumbai (2026)**, currently an intern with the **AI COE team at the National Stock Exchange of India (NSE)**.
 
-- **Software engineering** — web applications, APIs, integrations, and maintainable code.
-- **Applied AI** — local LLMs, AI-assisted tools, model integrations, and useful AI workflows.
-- **Data intelligence** — Python, data analysis, machine learning experiments, and visualisation.
-- **Browser automation** — extensions, reusable workflows, MCP integrations, and execution verification.
+I use this GitHub profile as my engineering logbook: a place to build applications, experiment with AI, explore data, and document practical implementations.
 
-The goal is to turn ideas into working systems, understand the trade-offs behind them, and verify what actually works.
+**NX MATRIX** is the personal project identity behind that work.
 
-> **Ideas | Intelligence | Impact** — Build with purpose. Test the system. Improve through evidence.
+> **IDEAS** become experiments. **INTELLIGENCE** makes them useful. **IMPACT** is the outcome.
 
-This GitHub profile is the pixel-themed technical view of NX Matrix: source code, engineering activity, detected language statistics, and recent repository updates. Visit the **[Main Portfolio](https://portfolio-psi-ochre-jabym9b7ir.vercel.app)** for my personal website and the separate **[Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)** for project demos and feature showcases.
+---
 
-## ▣ CURRENT ENGINEERING FOCUS
+## <img src="https://img.shields.io/badge/02-AREAS_OF_WORK-142633?style=flat-square&labelColor=101B29" alt="02 Areas of work" />
 
-- **Application development:** frontend experiences, backend services, APIs, databases, and debugging.
-- **AI systems:** local model workflows, LLM integrations, developer utilities, and practical automation.
-- **Data science:** Python-based analysis, machine learning, and data visualisation.
-- **Automation infrastructure:** browser extensions, MCP services, reusable skills, and supervised execution.
-
-## ▣ FEATURED PROJECT
-
-The newest eligible public repository, selected automatically from GitHub metadata.
-
-<!-- AUTO:LATEST_PROJECT:START -->
-<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#101B29">
-<tr><td bgcolor="#78E4DF" height="4"></td></tr>
-<tr><td align="center" style="padding:26px 18px;">
-<a href="https://github.com/ns-matrix/whatsapp-message-manager-android"><img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/nx-matrix-logo.svg" width="112" alt="NX Matrix logo" /></a>
-<p align="center"><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST COMMIT · PUBLIC REPOSITORY</sub></p>
-<h2 align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">🚀 whatsapp-message-manager-android</a></h2>
-<p align="center">Android companion app for NX Matrix WhatsApp Message Manager</p>
-
-<hr/>
-<p align="center"><b>LANGUAGE</b> &nbsp; Kotlin &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-10-30 &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; 2026-11-16</p>
-<div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/whatsapp-message-manager-android/commit/5294f473d696efde5c66721c4c5bcfe08619b23d">Update image width in README.md</a></p></div>
-<p align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">VIEW PROJECT &nbsp; ↗</a></p>
-</td></tr>
-<tr><td bgcolor="#E65EAA" height="3"></td></tr>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>▣ Software Engineering</h3>
+      Web applications, frontend interfaces, backend services, APIs, and integrations.
+    </td>
+    <td width="50%" valign="top">
+      <h3>◈ Applied AI</h3>
+      Local LLMs, model integrations, AI-assisted developer tools, and practical AI workflows.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>▦ Data Intelligence</h3>
+      Python, data analysis, machine learning experiments, and data visualisation.
+    </td>
+    <td width="50%" valign="top">
+      <h3>⌘ Browser Automation</h3>
+      Browser workflows, extensions, MCP integrations, and supervised task execution.
+    </td>
+  </tr>
 </table>
-<!-- AUTO:LATEST_PROJECT:END -->
 
+## <img src="https://img.shields.io/badge/03-CURRENTLY_EXPLORING-142633?style=flat-square&labelColor=101B29" alt="03 Currently exploring" />
 
-## ▣ TECH HUB · REPOSITORY LANGUAGE ANALYTICS
+- Building useful software from requirements through implementation and testing.
+- Connecting local AI models with developer tools and automation workflows.
+- Exploring reliable browser automation and Model Context Protocol (MCP) integrations.
+- Improving data-driven applications with real integrations and transparent system behaviour.
 
-This visual is generated from GitHub's language-byte statistics across public, non-fork, non-archived repositories. Percentages represent detected code volume — **not skill level or proficiency**.
+---
 
-<!-- AUTO:TECH_HUB:START -->
-<div align="center">\n<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />\n</div>
-<!-- AUTO:TECH_HUB:END -->
-
-## ▣ ENGINEERING TOOLKIT
-
-Technologies used or explored across projects. The analytics above are generated from repository data; these badges are a concise overview of my current engineering toolkit.
+## <img src="https://img.shields.io/badge/04-SELECTED_BUILD-142633?style=flat-square&labelColor=101B29" alt="04 Selected build" />
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-142633?style=flat-square&logo=python&logoColor=78E4DF)
-![JavaScript](https://img.shields.io/badge/JavaScript-142633?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-142633?style=flat-square&logo=typescript&logoColor=78E4DF)
-![Java](https://img.shields.io/badge/Java-142633?style=flat-square&logo=openjdk&logoColor=E65EAA)
-![React](https://img.shields.io/badge/React-142633?style=flat-square&logo=react&logoColor=78E4DF)
-![Node.js](https://img.shields.io/badge/Node.js-142633?style=flat-square&logo=nodedotjs&logoColor=78E4DF)
-![FastAPI](https://img.shields.io/badge/FastAPI-142633?style=flat-square&logo=fastapi&logoColor=78E4DF)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-142633?style=flat-square&logo=postgresql&logoColor=78E4DF)
-![Git](https://img.shields.io/badge/Git-142633?style=flat-square&logo=git&logoColor=E65EAA)
-![Docker](https://img.shields.io/badge/Docker-142633?style=flat-square&logo=docker&logoColor=78E4DF)
-![Ollama](https://img.shields.io/badge/Ollama-142633?style=flat-square&logo=ollama&logoColor=78E4DF)
-![Scikit--learn](https://img.shields.io/badge/Scikit--learn-142633?style=flat-square&logo=scikitlearn&logoColor=E65EAA)
+<a href="https://github.com/ns-matrix/whatsapp-message-manager-android">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ns-matrix&repo=whatsapp-message-manager-android&hide_border=true&bg_color=101B29&title_color=78E4DF&icon_color=E65EAA&text_color=E6F4F1" alt="WhatsApp Message Manager Android repository card" />
+</a>
 
 </div>
 
-**Also exploring:** Pandas · NumPy · Streamlit · REST APIs · Power BI · local LLMs · MCP
+The Android companion app for **NX Matrix WhatsApp Message Manager**. Explore the repository for its implementation, source code, and current development status.
 
-## ▣ GITHUB ACTIVITY
+**More work:** [Browse all public repositories →](https://github.com/ns-matrix?tab=repositories) · [Open the Projects Lab →](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)
 
-Live GitHub account insights. These cards are provided by GitHub Readme Stats and may occasionally be unavailable or rate-limited.
+---
+
+## <img src="https://img.shields.io/badge/05-TECH_STACK-142633?style=flat-square&labelColor=101B29" alt="05 Tech stack" />
 
 <div align="center">
 
-<a href="https://github.com/ns-matrix"><img height="165" src="https://github-readme-stats.vercel.app/api?username=ns-matrix&show_icons=true&hide_border=true&bg_color=101B29&title_color=78E4DF&icon_color=E65EAA&text_color=E6F4F1" alt="GitHub account statistics" /></a>
-<a href="https://github.com/ns-matrix?tab=repositories"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ns-matrix&layout=compact&langs_count=8&hide_border=true&bg_color=101B29&title_color=78E4DF&text_color=E6F4F1" alt="Most used languages chart" /></a>
+<img src="https://skillicons.dev/icons?i=python,js,ts,java,html,css,react,nodejs,fastapi,postgres,git,github,docker&theme=dark" alt="Technology icons: Python, JavaScript, TypeScript, Java, HTML, CSS, React, Node.js, FastAPI, PostgreSQL, Git, GitHub and Docker" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/AI_&_LOCAL_MODELS-Ollama-142633?style=flat-square&logo=ollama&logoColor=78E4DF" alt="Ollama" />
+<img src="https://img.shields.io/badge/DATA-Pandas_%7C_NumPy-142633?style=flat-square&logo=pandas&logoColor=78E4DF" alt="Pandas and NumPy" />
+<img src="https://img.shields.io/badge/ML-Scikit--learn-142633?style=flat-square&logo=scikitlearn&logoColor=E65EAA" alt="Scikit-learn" />
+<img src="https://img.shields.io/badge/AUTOMATION-MCP-142633?style=flat-square&logo= Zapier&logoColor=78E4DF" alt="MCP automation" />
 
 </div>
 
-## ▣ HOW I APPROACH ENGINEERING
+<sub>Tools and technologies shown reflect work across projects and ongoing exploration; they are not a claim of equal proficiency in every tool.</sub>
 
-- **Understand first:** inspect the requirements and existing system before changing code.
-- **Build deliberately:** make focused changes and keep the implementation understandable.
-- **Verify the result:** test important paths and document failures or limitations honestly.
-- **Keep learning:** use repository history, issues, reviews, and experiments to improve the system.
+---
 
-## ▣ EXPLORE NX MATRIX
+## <img src="https://img.shields.io/badge/06-GITHUB_TELEMETRY-142633?style=flat-square&labelColor=101B29" alt="06 GitHub telemetry" />
 
 <div align="center">
 
-| Looking for… | Destination |
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=ns-matrix&show_icons=true&hide_border=true&rank_icon=github&bg_color=101B29&title_color=78E4DF&icon_color=E65EAA&text_color=E6F4F1" alt="GitHub profile statistics" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ns-matrix&layout=compact&langs_count=8&hide_border=true&bg_color=101B29&title_color=78E4DF&text_color=E6F4F1" alt="Most used programming languages" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ns-matrix&bg_color=101B29&color=78E4DF&line=66C8C2&point=E65EAA&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph" />
+
+</div>
+
+<sub>Stats and activity graphs are generated by third-party services and may be temporarily unavailable. Language charts describe repository code volume, not proficiency.</sub>
+
+---
+
+## <img src="https://img.shields.io/badge/07-ENGINEERING_PRINCIPLES-142633?style=flat-square&labelColor=101B29" alt="07 Engineering principles" />
+
+| Principle | How I apply it |
 |---|---|
-| Personal website and introduction | [Main Portfolio](https://portfolio-psi-ochre-jabym9b7ir.vercel.app) |
-| Project demos and feature showcases | [Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase) |
-| Source code and engineering activity | [GitHub repositories](https://github.com/ns-matrix?tab=repositories) |
-| Professional background and updates | [LinkedIn](https://www.linkedin.com/in/nitin-kumar-singh-339210262/) |
+| Understand the system | Read the requirements and inspect existing behaviour before changing code. |
+| Build with intent | Prefer focused implementations and maintainable structure. |
+| Verify, don't assume | Test important paths and distinguish working features from planned ones. |
+| Learn in public | Keep code, experiments, and technical progress discoverable. |
 
-<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-footer.svg" width="100%" alt="NX Matrix — Ideas, Intelligence, Impact" />
+---
 
-<sub>▣ PIXEL EDITION · Thanks for visiting. Explore the work, inspect the code, and connect.</sub>
+## <img src="https://img.shields.io/badge/08-CONNECT-142633?style=flat-square&labelColor=101B29" alt="08 Connect" />
+
+<div align="center">
+
+**Have an idea, useful project, or engineering problem to discuss?**
+
+<a href="https://www.linkedin.com/in/nitin-kumar-singh-339210262/"><img src="https://img.shields.io/badge/LET'S_CONNECT-LINKEDIN-142633?style=for-the-badge&logo=linkedin&logoColor=78E4DF" alt="Connect on LinkedIn" /></a>
+<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app"><img src="https://img.shields.io/badge/VISIT-NX_MATRIX-142633?style=for-the-badge&logo=vercel&logoColor=E65EAA" alt="Visit NX Matrix portfolio" /></a>
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-footer.svg" width="100%" alt="NX Matrix pixel-art footer — Ideas, Intelligence, Impact" />
+
+<sub>▣ NX MATRIX · PIXEL ENGINEERING EDITION · IDEAS | INTELLIGENCE | IMPACT</sub>
 
 </div>
