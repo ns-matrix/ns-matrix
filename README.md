@@ -52,7 +52,7 @@ The newest eligible public repository, selected automatically from GitHub metada
 <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#101B29">
 <tr><td bgcolor="#78E4DF" height="4"></td></tr>
 <tr><td align="center" style="padding:26px 18px;">
-<a href="https://github.com/ns-matrix/whatsapp-message-manager-android"><img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/Neon%20WhatsApp%20Message%20Manager%20Icon.png" width="112" alt="Neon WhatsApp Message Manager app icon" /></a>
+<a href="https://github.com/ns-matrix/whatsapp-message-manager-android"><img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/nx-matrix-logo.svg" width="112" alt="NX Matrix logo" /></a>
 <p align="center"><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST COMMIT · PUBLIC REPOSITORY</sub></p>
 <h2 align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">🚀 whatsapp-message-manager-android</a></h2>
 <p align="center">Android companion app for NX Matrix WhatsApp Message Manager</p>
@@ -71,9 +71,7 @@ The newest eligible public repository, selected automatically from GitHub metada
 This visual is generated from GitHub's language-byte statistics across public, non-fork, non-archived repositories. Percentages represent detected code volume — **not skill level or proficiency**.
 
 <!-- AUTO:TECH_HUB:START -->
-<div align="center">
-<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />
-</div>
+<div align="center">\n<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />\n</div>
 <!-- AUTO:TECH_HUB:END -->
 
 ## ENGINEERING TOOLKIT
