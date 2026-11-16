@@ -52,7 +52,7 @@ The newest eligible public repository, selected automatically from GitHub metada
 <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#101B29">
 <tr><td bgcolor="#78E4DF" height="4"></td></tr>
 <tr><td align="center" style="padding:26px 18px;">
-<a href="https://github.com/ns-matrix/whatsapp-message-manager-android"><img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/nx-matrix-logo.svg" width="112" alt="NX Matrix logo" /></a>
+<a href="https://github.com/ns-matrix/whatsapp-message-manager-android"><img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/Neon%20WhatsApp%20Message%20Manager%20Icon.png" width="112" alt="Neon WhatsApp Message Manager app icon" /></a>
 <p align="center"><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST COMMIT · PUBLIC REPOSITORY</sub></p>
 <h2 align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">🚀 whatsapp-message-manager-android</a></h2>
 <p align="center">Android companion app for NX Matrix WhatsApp Message Manager</p>
@@ -103,8 +103,12 @@ Live GitHub account insights. These cards are provided by GitHub Readme Stats an
 
 <div align="center">
 
-<a href="https://github.com/ns-matrix"><img height="165" src="https://github-readme-stats.vercel.app/api?username=ns-matrix&show_icons=true&hide_border=true&bg_color=10251F&title_color=76C893&icon_color=F2C879&text_color=E1F0E5" alt="GitHub account statistics" /></a>
-<a href="https://github.com/ns-matrix?tab=repositories"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ns-matrix&layout=compact&langs_count=8&hide_border=true&bg_color=10251F&title_color=76C893&text_color=E1F0E5" alt="Most used languages chart" /></a>
+<a href="https://github.com/ns-matrix">
+  <img src="https://github-readme-stats.vercel.app/api?username=ns-matrix&show_icons=true&hide_border=true&bg_color=10251F&title_color=76C893&icon_color=F2C879&text_color=E1F0E5&cache_seconds=1800" alt="GitHub account statistics" width="49%" />
+</a>
+<a href="https://github.com/ns-matrix?tab=repositories">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ns-matrix&layout=compact&langs_count=8&hide_border=true&bg_color=10251F&title_color=76C893&text_color=E1F0E5&cache_seconds=1800" alt="Most used languages chart" width="49%" />
+</a>
 
 </div>
 
