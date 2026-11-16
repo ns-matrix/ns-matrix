@@ -99,12 +99,19 @@ Technologies used or explored across projects. The analytics above are generated
 
 ## GITHUB ACTIVITY
 
-Live GitHub account insights. These cards are provided by GitHub Profile Summary Cards and may occasionally be unavailable.
+Live GitHub account insights. These cards are provided by GitHub Readme Stats and may occasionally be unavailable or rate-limited.
 
 <div align="center">
 
+<a href="https://github.com/ns-matrix">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ns-matrix&theme=github_dark" alt="GitHub profile activity summary" width="100%" />
+</a>
+<br/>
 <a href="https://github.com/ns-matrix?tab=repositories">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ns-matrix&theme=github_dark" alt="Most used languages by commit activity" width="49%" />
+</a>
+<a href="https://github.com/ns-matrix?tab=repositories">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ns-matrix&theme=github_dark" alt="GitHub contribution statistics" width="49%" />
 </a>
 
 </div>
