@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh dynamic repository analytics, language pie chart, and newest-project card."""
+"""Refresh repository language analytics and the latest-activity featured project card."""
 import json
 import html
 import math
@@ -110,48 +110,92 @@ def repo_readme_details(repo):
     return summary, features
 
 
-def get_latest_created_project():
-    """Fetch complete repository metadata, then select the newest-created eligible repo."""
-    full_repos = []
-    for repo in get_repos():
-        try:
-            detail = api_json(f"{API}/repos/{OWNER}/{repo['name']}")
-            if not detail.get("private", False) and not detail.get("fork", False) and not detail.get("archived", False):
-                full_repos.append(detail)
-        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError):
-            continue
-    if not full_repos:
+def get_latest_activity_project(repos):
+    """Feature the public repository with the most recent pushed commit."""
+    eligible = [
+        repo for repo in repos
+        if repo.get("name") != OWNER
+        and not repo.get("private", False)
+        and not repo.get("fork", False)
+        and not repo.get("archived", False)
+    ]
+    if not eligible:
         return "_No public repositories were returned by GitHub._"
-    newest = max(full_repos, key=lambda repo: repo.get("created_at") or "")
-    name = safe(newest.get("name"))
-    readme_summary, features = repo_readme_details(newest)
-    description = safe(newest.get("description") or readme_summary or "Open the repository to explore its current code and implementation.")
-    url = newest.get("html_url", f"https://github.com/{OWNER}/{newest['name']}")
-    language = safe(newest.get("language") or "Not detected")
-    created = parsed_date(newest.get("created_at"))
-    pushed = parsed_date(newest.get("pushed_at"))
+
+    # pushed_at tracks the latest push/commit; created_at must not determine the feature.
+    latest = max(eligible, key=repo_activity_date)
+    name = safe(latest.get("name"))
+    readme_summary, features = repo_readme_details(latest)
+    description = safe(
+        latest.get("description")
+        or readme_summary
+        or "Open the repository to explore its current code and implementation."
+    )
+    url = latest.get("html_url", f"https://github.com/{OWNER}/{latest['name']}")
+    language = safe(latest.get("language") or "Not detected")
+    created = parsed_date(latest.get("created_at"))
+    last_push = parsed_date(latest.get("pushed_at"))
+
+    commit_subject = ""
+    commit_url = url
+    commit_date = last_push
+    try:
+        commits = api_json(
+            f"{API}/repos/{OWNER}/{latest['name']}/commits?per_page=1"
+        )
+        if commits:
+            commit = commits[0]
+            commit_data = commit.get("commit", {})
+            commit_subject = safe(
+                (commit_data.get("message") or "").splitlines()[0]
+            )
+            commit_url = commit.get("html_url") or url
+            commit_date = parsed_date(
+                commit_data.get("author", {}).get("date")
+                or commit_data.get("committer", {}).get("date")
+                or latest.get("pushed_at")
+            )
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, IndexError, KeyError):
+        pass
+
     feature_html = ""
     if features:
-        feature_html = "<ul>" + "".join(f"<li>{html.escape(feature)}</li>" for feature in features) + "</ul>"
+        feature_html = (
+            '<div align="center"><ul style="display:inline-block;text-align:left;">'
+            + "".join(f"<li>{html.escape(feature)}</li>" for feature in features)
+            + "</ul></div>"
+        )
+
+    commit_html = ""
+    if commit_subject:
+        commit_html = (
+            f'<p><b>LATEST COMMIT</b><br/>'
+            f'<a href="{commit_url}">{html.escape(commit_subject)}</a></p>'
+        )
+
+    logo_url = (
+        "https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/"
+        "assets/nx-matrix-logo.svg"
+    )
     return "\n".join([
         '<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#101B29">',
         '<tr><td bgcolor="#78E4DF" height="4"></td></tr>',
-        '<tr><td cellpadding="22">',
-        '<table width="100%" border="0" cellpadding="18" cellspacing="0">',
-        '<tr><td>',
-        '<p><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST PUBLIC REPOSITORY</sub></p>',
-        f'<h2><a href="{url}">🚀 {html.escape(name)}</a></h2>',
-        f'<p>{html.escape(description)}</p>',
+        '<tr><td align="center" style="padding:26px 18px;">',
+        f'<a href="{url}"><img src="{logo_url}" width="112" alt="NX Matrix logo" /></a>',
+        '<p align="center"><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST UPDATED PUBLIC REPOSITORY</sub></p>',
+        f'<h2 align="center"><a href="{url}">🚀 {html.escape(name)}</a></h2>',
+        f'<p align="center">{html.escape(description)}</p>',
         feature_html,
         '<hr/>',
-        f'<p><b>LANGUAGE</b> &nbsp; {html.escape(language)} &nbsp;&nbsp; <b>CREATED</b> &nbsp; {created} &nbsp;&nbsp; <b>UPDATED</b> &nbsp; {pushed}</p>',
-        f'<p><a href="{url}">VIEW PROJECT &nbsp; ↗</a></p>',
-        '</td></tr></table>',
+        f'<p align="center"><b>LANGUAGE</b> &nbsp; {html.escape(language)}'
+        f' &nbsp;&nbsp; <b>CREATED</b> &nbsp; {created}'
+        f' &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; {commit_date}</p>',
+        f'<div align="center">{commit_html}</div>' if commit_html else "",
+        f'<p align="center"><a href="{url}">VIEW PROJECT &nbsp; ↗</a></p>',
         '</td></tr>',
         '<tr><td bgcolor="#E65EAA" height="3"></td></tr>',
         '</table>',
     ])
-
 
 def make_pie_chart_svg(ranked, total_bytes):
     """Generate an SVG pie chart from live GitHub language-byte totals."""
@@ -247,7 +291,7 @@ def main():
     with open(README, "r", encoding="utf-8") as file:
         readme = file.read()
 
-    readme = replace_section(readme, "LATEST_PROJECT", get_latest_created_project())
+    readme = replace_section(readme, "LATEST_PROJECT", get_latest_activity_project(repos))
     readme = replace_section(readme, "TECH_HUB", tech_hub(repos))
 
     with open(README, "w", encoding="utf-8", newline="\n") as file:
