@@ -6,7 +6,7 @@ Engineering notes, practical software, applied AI, and repository-derived activi
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-header.svg" width="100%" alt="NX Matrix — Nitin Singh | Ideas, Intelligence, Impact" />
+<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-header.svg" width="100%" alt="NX Matrix — Pixel Engineering Workspace | Ideas, Intelligence, Impact" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=78E4DF&center=true&vCenter=true&width=850&lines=SOFTWARE+ENGINEERING+%7C+DATA+SCIENCE;Building+useful+software+and+AI+systems;Ideas+%7C+Intelligence+%7C+Impact" alt="NX Matrix animated introduction" />
 
@@ -19,7 +19,7 @@ Engineering notes, practical software, applied AI, and repository-derived activi
 
 ---
 
-## NX Matrix
+## ▣ NX MATRIX · PIXEL ENGINEERING HUB
 
 I'm **Nitin Kumar Singh**, a Data Science graduate from the **University of Mumbai** (2026), currently gaining industry experience as an intern with the **AI COE team at the National Stock Exchange of India (NSE)**.
 
@@ -34,16 +34,16 @@ The goal is to turn ideas into working systems, understand the trade-offs behind
 
 > **Ideas | Intelligence | Impact** — Build with purpose. Test the system. Improve through evidence.
 
-This GitHub profile is the technical view of NX Matrix: source code, engineering activity, detected language statistics, and recent repository updates. Visit the **[Main Portfolio](https://portfolio-psi-ochre-jabym9b7ir.vercel.app)** for my personal website and the separate **[Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)** for project demos and feature showcases.
+This GitHub profile is the pixel-themed technical view of NX Matrix: source code, engineering activity, detected language statistics, and recent repository updates. Visit the **[Main Portfolio](https://portfolio-psi-ochre-jabym9b7ir.vercel.app)** for my personal website and the separate **[Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)** for project demos and feature showcases.
 
-## Current engineering focus
+## ▣ CURRENT ENGINEERING FOCUS
 
 - **Application development:** frontend experiences, backend services, APIs, databases, and debugging.
 - **AI systems:** local model workflows, LLM integrations, developer utilities, and practical automation.
 - **Data science:** Python-based analysis, machine learning, and data visualisation.
 - **Automation infrastructure:** browser extensions, MCP services, reusable skills, and supervised execution.
 
-## Featured project
+## ▣ FEATURED PROJECT
 
 The newest eligible public repository, selected automatically from GitHub metadata.
 
@@ -66,7 +66,7 @@ The newest eligible public repository, selected automatically from GitHub metada
 <!-- AUTO:LATEST_PROJECT:END -->
 
 
-## Tech hub · repository language analytics
+## ▣ TECH HUB · REPOSITORY LANGUAGE ANALYTICS
 
 This visual is generated from GitHub's language-byte statistics across public, non-fork, non-archived repositories. Percentages represent detected code volume — **not skill level or proficiency**.
 
@@ -74,7 +74,7 @@ This visual is generated from GitHub's language-byte statistics across public, n
 <div align="center">\n<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />\n</div>
 <!-- AUTO:TECH_HUB:END -->
 
-## Engineering toolkit
+## ▣ ENGINEERING TOOLKIT
 
 Technologies used or explored across projects. The analytics above are generated from repository data; these badges are a concise overview of my current engineering toolkit.
 
@@ -97,7 +97,7 @@ Technologies used or explored across projects. The analytics above are generated
 
 **Also exploring:** Pandas · NumPy · Streamlit · REST APIs · Power BI · local LLMs · MCP
 
-## GitHub activity
+## ▣ GITHUB ACTIVITY
 
 Live GitHub account insights. These cards are provided by GitHub Readme Stats and may occasionally be unavailable or rate-limited.
 
@@ -108,14 +108,14 @@ Live GitHub account insights. These cards are provided by GitHub Readme Stats an
 
 </div>
 
-## How I approach engineering
+## ▣ HOW I APPROACH ENGINEERING
 
 - **Understand first:** inspect the requirements and existing system before changing code.
 - **Build deliberately:** make focused changes and keep the implementation understandable.
 - **Verify the result:** test important paths and document failures or limitations honestly.
 - **Keep learning:** use repository history, issues, reviews, and experiments to improve the system.
 
-## Explore NX Matrix
+## ▣ EXPLORE NX MATRIX
 
 <div align="center">
 
@@ -128,6 +128,6 @@ Live GitHub account insights. These cards are provided by GitHub Readme Stats an
 
 <img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-footer.svg" width="100%" alt="NX Matrix — Ideas, Intelligence, Impact" />
 
-<sub>Thanks for visiting. Explore the work, inspect the code, and connect.</sub>
+<sub>▣ PIXEL EDITION · Thanks for visiting. Explore the work, inspect the code, and connect.</sub>
 
 </div>
