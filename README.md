@@ -54,7 +54,7 @@ The newest eligible public repository, selected automatically from GitHub metada
 <tr><td align="center" style="padding:26px 18px;">
 <a href="https://github.com/ns-matrix/whatsapp-message-manager-android"><img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/nx-matrix-logo.svg" width="112" alt="NX Matrix logo" /></a>
 <p align="center"><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST COMMIT · PUBLIC REPOSITORY</sub></p>
-<h2 align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">whatsapp-message-manager-android</a></h2>
+<h2 align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">🚀 whatsapp-message-manager-android</a></h2>
 <p align="center">Android companion app for NX Matrix WhatsApp Message Manager</p>
 
 <hr/>
