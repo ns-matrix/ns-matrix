@@ -1,26 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
-<title id="title">NX Matrix — Nitin Singh</title>
-<desc id="desc">NX Matrix identity banner in a dark teal cyber workstation palette, with cyan and magenta accents.</desc>
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101B29"/><stop offset=".58" stop-color="#172A38"/><stop offset="1" stop-color="#0B151F"/></linearGradient>
-  <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#78E4DF"/><stop offset=".58" stop-color="#66C8C2"/><stop offset="1" stop-color="#E65EAA"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#78E4DF" stroke-opacity=".09" stroke-width="1"/></pattern>
-</defs>
-<rect width="1200" height="250" rx="16" fill="url(#bg)"/>
-<rect width="1200" height="250" rx="16" fill="url(#grid)"/>
-<path d="M0 18H1200M0 232H1200" stroke="url(#neon)" stroke-opacity=".6"/>
-<g fill="#78E4DF" opacity=".16" font-family="monospace" font-size="13">
- <text x="30" y="42">01001110 01011000 00101101 01001101 01000001 01010100 01010010 01001001 01011000</text>
- <text x="720" y="220">const ideas = build(); // verify(); ship();</text>
-</g>
-<rect x="54" y="68" width="6" height="118" rx="3" fill="#78E4DF" filter="url(#glow)"/>
-<text x="82" y="117" fill="#EAF8F6" font-family="monospace" font-size="52" font-weight="800" letter-spacing="3">NX MATRIX</text>
-<text x="85" y="151" fill="#78E4DF" font-family="monospace" font-size="17" letter-spacing="2">NITIN KUMAR SINGH  /  SOFTWARE ENGINEERING</text>
-<text x="85" y="183" fill="#C3D8D8" font-family="monospace" font-size="15" letter-spacing="4">IDEAS  |  INTELLIGENCE  |  IMPACT</text>
-<g transform="translate(985 73)" fill="none" stroke="url(#neon)" stroke-width="2.5" filter="url(#glow)">
- <path d="M0 0H150V105H0Z"/><path d="M22 25L43 42L22 59M56 59H105"/><path d="M22 78H128"/>
- <path d="M75 0V-16H133V0" opacity=".6"/>
-</g>
-<circle cx="1148" cy="198" r="5" fill="#E65EAA" filter="url(#glow)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d" shape-rendering="crispEdges">
+<title id="t">NX MATRIX · Pixel Engineering Hub</title><desc id="d">Pixel-art cyber workstation banner in deep teal with cyan and magenta neon accents.</desc>
+<defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#081827"/><stop offset="1" stop-color="#142d39"/></linearGradient><pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#62d9d0" stroke-opacity=".13" stroke-width="1"/></pattern><filter id="n"><feGaussianBlur stdDeviation="3" result="x"/><feMerge><feMergeNode in="x"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="300" fill="url(#b)"/><rect width="1200" height="300" fill="url(#g)"/><path d="M0 12H1200M0 288H1200" stroke="#67e6d7" stroke-width="4"/>
+<g fill="#1b3c49" stroke="#4acfc5" stroke-width="3"><rect x="30" y="48" width="255" height="190"/><rect x="48" y="66" width="219" height="135"/><rect x="116" y="238" width="82" height="12"/><rect x="96" y="250" width="122" height="9"/></g>
+<g fill="#63e7d7"><rect x="67" y="84" width="18" height="18"/><rect x="91" y="84" width="18" height="18"/><rect x="115" y="84" width="18" height="18"/><rect x="67" y="120" width="125" height="7"/><rect x="67" y="139" width="170" height="7"/><rect x="67" y="158" width="95" height="7"/></g><g fill="#e65eaa"><rect x="207" y="120" width="42" height="7"/><rect x="174" y="158" width="64" height="7"/></g>
+<g transform="translate(355 72)" filter="url(#n)"><path d="M0 0H24V24H48V48H72V72H48V96H24V120H0V96H24V72H48V48H24V24H0Z" fill="#68e6d9"/><path d="M96 0H120V24H144V48H168V72H144V96H120V120H96V96H120V72H144V48H120V24H96Z" fill="#e65eaa"/><path d="M48 48H96V72H48Z" fill="#142d39"/></g>
+<text x="570" y="125" fill="#effffc" font-family="monospace" font-size="62" font-weight="900" letter-spacing="5">NX MATRIX</text><text x="575" y="164" fill="#6de4da" font-family="monospace" font-size="20" letter-spacing="3">PIXEL ENGINEERING WORKSPACE</text><text x="575" y="204" fill="#d2e8e4" font-family="monospace" font-size="18" letter-spacing="4">IDEAS  |  INTELLIGENCE  |  IMPACT</text>
+<g fill="#e65eaa"><rect x="1090" y="48" width="18" height="18"/><rect x="1114" y="72" width="18" height="18"/><rect x="1138" y="96" width="18" height="18"/></g><g fill="#63e7d7"><rect x="1080" y="222" width="14" height="14"/><rect x="1100" y="222" width="14" height="14"/><rect x="1120" y="222" width="14" height="14"/></g>
 </svg>
