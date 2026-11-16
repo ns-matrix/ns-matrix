@@ -1,87 +1,90 @@
 <!--
-NITIN KUMAR SINGH · GITHUB PROFILE
-Engineering notes, code analytics, and recent repository activity.
-The portfolio and Projects Lab are separate destinations for full project showcases.
+NX MATRIX · GITHUB PROFILE
+Ideas | Intelligence | Impact
+Engineering notes, practical software, applied AI, and repository-derived activity.
 -->
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-header.svg" width="100%" alt="Nitin Singh — Software Engineering, Data Science and Applied AI" />
+<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-header.svg" width="100%" alt="NX Matrix — Nitin Singh | Ideas, Intelligence, Impact" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=00F06A&center=true&vCenter=true&width=850&lines=Data+Science+%7C+Software+Engineering;Building+practical+software+and+AI+tools;Learn+the+system.+Write+the+code.+Verify+the+result." alt="Animated developer introduction" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=78E4DF&center=true&vCenter=true&width=850&lines=SOFTWARE+ENGINEERING+%7C+DATA+SCIENCE;Building+useful+software+and+AI+systems;Ideas+%7C+Intelligence+%7C+Impact" alt="NX Matrix animated introduction" />
 
-<a href="https://github.com/ns-matrix?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-Source%20%26%20Engineering-00F06A?style=for-the-badge&logo=github&logoColor=07110B" alt="GitHub repositories" /></a>
-<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-Personal%20Website-00D9F5?style=for-the-badge&logo=vercel&logoColor=07110B" alt="Main portfolio" /></a>
-<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase"><img src="https://img.shields.io/badge/PROJECTS%20LAB-Visual%20Showcase-BAFF66?style=for-the-badge&logo=vercel&logoColor=07110B" alt="Projects Lab" /></a>
-<a href="https://www.linkedin.com/in/nitin-kumar-singh-339210262/"><img src="https://img.shields.io/badge/LINKEDIN-Professional%20Journey-BAFF66?style=for-the-badge&logo=linkedin&logoColor=07110B" alt="LinkedIn profile" /></a>
+<a href="https://github.com/ns-matrix?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-Source%20%26%20Engineering-78E4DF?style=for-the-badge&logo=github&logoColor=101B29" alt="GitHub repositories" /></a>
+<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-Personal%20Website-66C8C2?style=for-the-badge&logo=vercel&logoColor=101B29" alt="Main portfolio" /></a>
+<a href="https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase"><img src="https://img.shields.io/badge/PROJECTS%20LAB-Project%20Showcase-E65EAA?style=for-the-badge&logo=vercel&logoColor=101B29" alt="Projects Lab" /></a>
+<a href="https://www.linkedin.com/in/nitin-kumar-singh-339210262/"><img src="https://img.shields.io/badge/LINKEDIN-Professional%20Profile-78E4DF?style=for-the-badge&logo=linkedin&logoColor=101B29" alt="LinkedIn profile" /></a>
 
 </div>
 
 ---
 
-## The story so far
+## NX Matrix
 
-I'm **Nitin Kumar Singh**, a Data Science student at the **University of Mumbai**, currently gaining professional experience as an intern at the **National Stock Exchange of India (NSE)** with the ADM and Webtic teams.
+I'm **Nitin Kumar Singh**, a Data Science graduate from the **University of Mumbai** (2026), currently gaining industry experience as an intern with the **AI COE team at the National Stock Exchange of India (NSE)**.
 
-My journey is about moving from learning concepts to understanding how real systems are put together: writing code, connecting APIs and databases, experimenting with AI, debugging failures, and making projects more reliable. I’m working toward becoming a software engineer with a strong foundation in data and applied AI.
+**NX Matrix** is my engineering workspace for exploring and building practical software across:
 
-> **My rule:** A project isn't just a screenshot. I want to understand the code behind it, the trade-offs in its design, and how to verify that it works.
+- **Software engineering** — web applications, APIs, integrations, and maintainable code.
+- **Applied AI** — local LLMs, AI-assisted tools, model integrations, and useful AI workflows.
+- **Data intelligence** — Python, data analysis, machine learning experiments, and visualisation.
+- **Browser automation** — extensions, reusable workflows, MCP integrations, and execution verification.
 
-This profile is the engineering view of that journey: technologies I work with, recent repository activity, code-language analysis, and contribution signals. Visit my **[Main Portfolio](https://portfolio-psi-ochre-jabym9b7ir.vercel.app)** for my personal site, or the separate **[Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)** for project demos and features. For professional updates and career context, visit **[LinkedIn](https://www.linkedin.com/in/nitin-kumar-singh-339210262/)**.
+The goal is to turn ideas into working systems, understand the trade-offs behind them, and verify what actually works.
+
+> **Ideas | Intelligence | Impact** — Build with purpose. Test the system. Improve through evidence.
+
+This GitHub profile is the technical view of NX Matrix: source code, engineering activity, detected language statistics, and recent repository updates. Visit the **[Main Portfolio](https://portfolio-psi-ochre-jabym9b7ir.vercel.app)** for my personal website and the separate **[Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase)** for project demos and feature showcases.
 
 ## Current engineering focus
 
-- **Software development:** application structure, frontend experiences, backend APIs, databases, debugging, and maintainable code.
-- **Applied AI:** local LLMs, AI-assisted developer tools, model integrations, and practical AI workflows.
-- **Data science:** Python, data analysis, machine learning experiments, and analytics.
-- **Automation:** browser extensions, reusable workflows, verification, and MCP integrations.
+- **Application development:** frontend experiences, backend services, APIs, databases, and debugging.
+- **AI systems:** local model workflows, LLM integrations, developer utilities, and practical automation.
+- **Data science:** Python-based analysis, machine learning, and data visualisation.
+- **Automation infrastructure:** browser extensions, MCP services, reusable skills, and supervised execution.
 
-## Latest project drop
+## Latest project
 
-This featured card is generated from GitHub repository metadata. It automatically highlights only the **newest-created public repository** and refreshes with the profile analytics workflow.
+The card below is refreshed automatically from GitHub repository metadata. It highlights the newest-created eligible public repository.
 
 <!-- AUTO:LATEST_PROJECT:START -->
-<table width="100%" border="0" cellpadding="12" cellspacing="0">
-<tr><td>
-<p><b>🆕 LATEST REPOSITORY</b></p>
-<h3><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">🚀 whatsapp-message-manager-android</a></h3>
-<p>Android companion app for NX Matrix WhatsApp Message Manager</p>
-
-<p><b>Primary language:</b> Kotlin &nbsp; · &nbsp; <b>Created:</b> 2026-10-30 &nbsp; · &nbsp; <b>Latest push:</b> 2026-10-30</p>
-<p><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">Explore the latest repository →</a></p>
-</td></tr></table>
 <!-- AUTO:LATEST_PROJECT:END -->
 
+## Recent repository activity
 
-## Tech hub · detected code distribution
+A quick view of recently pushed public repositories. This table is generated by the profile analytics workflow.
 
-This section aggregates GitHub's language-byte statistics across my public, non-fork, non-archived repositories. It updates automatically alongside the recent-repository table. Percentages indicate the share of detected code volume, **not skill level or proficiency**.
+<!-- AUTO:RECENT_REPOS:START -->
+<!-- AUTO:RECENT_REPOS:END -->
+
+## Tech hub · repository language analytics
+
+This visual is generated from GitHub's language-byte statistics across public, non-fork, non-archived repositories. Percentages represent detected code volume — **not skill level or proficiency**.
 
 <!-- AUTO:TECH_HUB:START -->
 <div align="center">
-<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="Auto-generated pie chart of GitHub language-byte distribution" />
+<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/tech-hub-pie.svg" width="100%" alt="NX Matrix repository language distribution chart" />
 </div>
-
 <!-- AUTO:TECH_HUB:END -->
 
 ## Engineering toolkit
 
-Tools I use or explore across projects. The dynamic Tech Hub above is the repository-derived view; this section is a concise map of my engineering interests.
+Technologies used or explored across projects. The analytics above are generated from repository data; these badges are a concise overview of my current engineering toolkit.
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-0B1710?style=flat-square&logo=python&logoColor=00F06A)
-![JavaScript](https://img.shields.io/badge/JavaScript-0B1710?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Java](https://img.shields.io/badge/Java-0B1710?style=flat-square&logo=openjdk&logoColor=00D9F5)
-![React](https://img.shields.io/badge/React-0B1710?style=flat-square&logo=react&logoColor=00D9F5)
-![Node.js](https://img.shields.io/badge/Node.js-0B1710?style=flat-square&logo=nodedotjs&logoColor=00F06A)
-![FastAPI](https://img.shields.io/badge/FastAPI-0B1710?style=flat-square&logo=fastapi&logoColor=00F06A)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B1710?style=flat-square&logo=postgresql&logoColor=00D9F5)
-![Firebase](https://img.shields.io/badge/Firebase-0B1710?style=flat-square&logo=firebase&logoColor=FFCA28)
-![Git](https://img.shields.io/badge/Git-0B1710?style=flat-square&logo=git&logoColor=F05032)
-![Docker](https://img.shields.io/badge/Docker-0B1710?style=flat-square&logo=docker&logoColor=2496ED)
-![Ollama](https://img.shields.io/badge/Ollama-0B1710?style=flat-square&logo=ollama&logoColor=00F06A)
-![Scikit--learn](https://img.shields.io/badge/Scikit--learn-0B1710?style=flat-square&logo=scikitlearn&logoColor=F7931E)
+![Python](https://img.shields.io/badge/Python-142633?style=flat-square&logo=python&logoColor=78E4DF)
+![JavaScript](https://img.shields.io/badge/JavaScript-142633?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-142633?style=flat-square&logo=typescript&logoColor=78E4DF)
+![Java](https://img.shields.io/badge/Java-142633?style=flat-square&logo=openjdk&logoColor=E65EAA)
+![React](https://img.shields.io/badge/React-142633?style=flat-square&logo=react&logoColor=78E4DF)
+![Node.js](https://img.shields.io/badge/Node.js-142633?style=flat-square&logo=nodedotjs&logoColor=78E4DF)
+![FastAPI](https://img.shields.io/badge/FastAPI-142633?style=flat-square&logo=fastapi&logoColor=78E4DF)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-142633?style=flat-square&logo=postgresql&logoColor=78E4DF)
+![Git](https://img.shields.io/badge/Git-142633?style=flat-square&logo=git&logoColor=E65EAA)
+![Docker](https://img.shields.io/badge/Docker-142633?style=flat-square&logo=docker&logoColor=78E4DF)
+![Ollama](https://img.shields.io/badge/Ollama-142633?style=flat-square&logo=ollama&logoColor=78E4DF)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-142633?style=flat-square&logo=scikitlearn&logoColor=E65EAA)
 
 </div>
 
@@ -89,35 +92,35 @@ Tools I use or explore across projects. The dynamic Tech Hub above is the reposi
 
 ## GitHub activity
 
-These widgets are maintained by external services and can occasionally fail or be rate-limited. The repository and Tech Hub analytics above are generated by my own GitHub Actions workflow.
+These account-statistics cards are hosted by an external service and may occasionally be rate-limited. Repository and language analytics above are generated by the NX Matrix GitHub Actions workflow.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ns-matrix&show_icons=true&hide_border=true&bg_color=050D09&title_color=00F06A&icon_color=00D9F5&text_color=E8FFF0" alt="GitHub account statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ns-matrix&layout=compact&langs_count=8&hide_border=true&bg_color=050D09&title_color=00F06A&text_color=E8FFF0" alt="Most used languages chart" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=ns-matrix&show_icons=true&hide_border=true&bg_color=101B29&title_color=78E4DF&icon_color=E65EAA&text_color=E6F4F1" alt="GitHub account statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ns-matrix&layout=compact&langs_count=8&hide_border=true&bg_color=101B29&title_color=78E4DF&text_color=E6F4F1" alt="Most used languages chart" />
 
 </div>
 
-## How I think about code
+## How I approach engineering
 
-- **Read first:** understand the requirement and existing system before changing it.
-- **Build in steps:** keep changes focused and the implementation understandable.
-- **Verify:** test the important paths and be explicit about failures or limitations.
-- **Learn from the repository:** use issues, commits, reviews, and experiments to improve.
+- **Understand first:** inspect the requirements and existing system before changing code.
+- **Build deliberately:** make focused changes and keep the implementation understandable.
+- **Verify the result:** test important paths and document failures or limitations honestly.
+- **Keep learning:** use repository history, issues, reviews, and experiments to improve the system.
 
-## Find the right place
+## Explore NX Matrix
 
 <div align="center">
 
-| Want to… | Go here |
+| Looking for… | Destination |
 |---|---|
-| Visit my personal website and introduction | [Main Portfolio](https://portfolio-psi-ochre-jabym9b7ir.vercel.app) |
-| Explore project demos and detailed features | [Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase) |
-| Inspect source code and engineering activity | [GitHub repositories](https://github.com/ns-matrix?tab=repositories) |
-| Read my professional background and updates | [LinkedIn](https://www.linkedin.com/in/nitin-kumar-singh-339210262/) |
+| Personal website and introduction | [Main Portfolio](https://portfolio-psi-ochre-jabym9b7ir.vercel.app) |
+| Project demos and feature showcases | [Projects Lab](https://portfolio-psi-ochre-jabym9b7ir.vercel.app/projects-showcase) |
+| Source code and engineering activity | [GitHub repositories](https://github.com/ns-matrix?tab=repositories) |
+| Professional background and updates | [LinkedIn](https://www.linkedin.com/in/nitin-kumar-singh-339210262/) |
 
-<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-footer.svg" width="100%" alt="NX Matrix — Building, learning, shipping" />
+<img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/profile-footer.svg" width="100%" alt="NX Matrix — Ideas, Intelligence, Impact" />
 
-<sub>Thanks for stopping by. Explore the code, follow the work, or connect.</sub>
+<sub>Thanks for visiting. Explore the work, inspect the code, and connect.</sub>
 
 </div>
