@@ -60,8 +60,8 @@ The newest eligible public repository, selected automatically from GitHub metada
 <p align="center">Website</p>
 
 <hr/>
-<p align="center"><b>LANGUAGE</b> &nbsp; HTML &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-11-20 &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; 2026-11-20</p>
-<div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/karma-fire-protection/commit/a4d3698afeb6c2d6a01d26c4c7983b279e4d201f">Delete run-project.bat</a></p></div>
+<p align="center"><b>LANGUAGE</b> &nbsp; HTML &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-11-20 &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; 2026-11-21</p>
+<div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/karma-fire-protection/commit/4d486a312b60f4eae05dcc7f682db3565362227d">Create CNAME</a></p></div>
 <p align="center"><a href="https://github.com/ns-matrix/karma-fire-protection">VIEW PROJECT &nbsp; ↗</a></p>
 </td></tr>
 <tr><td bgcolor="#E65EAA" height="3"></td></tr>
