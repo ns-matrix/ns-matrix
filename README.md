@@ -54,15 +54,15 @@ The newest eligible public repository, selected automatically from GitHub metada
 <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#101B29">
 <tr><td bgcolor="#78E4DF" height="4"></td></tr>
 <tr><td align="center" style="padding:26px 18px;">
-<a href="https://github.com/ns-matrix/whatsapp-message-manager-android"><img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/nx-matrix-logo.svg" width="112" alt="NX Matrix logo" /></a>
+<a href="https://github.com/ns-matrix/karma-fire-protection"><img src="https://raw.githubusercontent.com/ns-matrix/ns-matrix/main/assets/nx-matrix-logo.svg" width="112" alt="NX Matrix logo" /></a>
 <p align="center"><sub>✦ &nbsp; NX MATRIX / FEATURED BUILD &nbsp; · &nbsp; LATEST COMMIT · PUBLIC REPOSITORY</sub></p>
-<h2 align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">🚀 whatsapp-message-manager-android</a></h2>
-<p align="center">Android companion app for NX Matrix WhatsApp Message Manager</p>
+<h2 align="center"><a href="https://github.com/ns-matrix/karma-fire-protection">🚀 karma-fire-protection</a></h2>
+<p align="center">Website</p>
 
 <hr/>
-<p align="center"><b>LANGUAGE</b> &nbsp; Kotlin &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-10-30 &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; 2026-11-16</p>
-<div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/whatsapp-message-manager-android/commit/5294f473d696efde5c66721c4c5bcfe08619b23d">Update image width in README.md</a></p></div>
-<p align="center"><a href="https://github.com/ns-matrix/whatsapp-message-manager-android">VIEW PROJECT &nbsp; ↗</a></p>
+<p align="center"><b>LANGUAGE</b> &nbsp; HTML &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-11-20 &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; 2026-11-20</p>
+<div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/karma-fire-protection/commit/a4d3698afeb6c2d6a01d26c4c7983b279e4d201f">Delete run-project.bat</a></p></div>
+<p align="center"><a href="https://github.com/ns-matrix/karma-fire-protection">VIEW PROJECT &nbsp; ↗</a></p>
 </td></tr>
 <tr><td bgcolor="#E65EAA" height="3"></td></tr>
 </table>
