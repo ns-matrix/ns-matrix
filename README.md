@@ -60,8 +60,8 @@ The newest eligible public repository, selected automatically from GitHub metada
 <p align="center">Backup</p>
 
 <hr/>
-<p align="center"><b>LANGUAGE</b> &nbsp; HTML &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-11-25 &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; 2026-11-25</p>
-<div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/karma-fire-protection0/commit/e2b4b635ec4865047b8d045d7c163a03c20ccf95">first commit</a></p></div>
+<p align="center"><b>LANGUAGE</b> &nbsp; HTML &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-11-25 &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; 2026-11-26</p>
+<div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/karma-fire-protection0/commit/b481770dbaea94fd37b60cce215265629ae5cf4c">Format secure Super Admin provisioning instructions</a></p></div>
 <p align="center"><a href="https://github.com/ns-matrix/karma-fire-protection0">VIEW PROJECT &nbsp; ↗</a></p>
 </td></tr>
 <tr><td bgcolor="#E65EAA" height="3"></td></tr>
