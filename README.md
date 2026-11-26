@@ -61,7 +61,7 @@ The newest eligible public repository, selected automatically from GitHub metada
 
 <hr/>
 <p align="center"><b>LANGUAGE</b> &nbsp; HTML &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-11-25 &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; 2026-11-26</p>
-<div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/karma-fire-protection0/commit/b481770dbaea94fd37b60cce215265629ae5cf4c">Format secure Super Admin provisioning instructions</a></p></div>
+<div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/karma-fire-protection0/commit/02847cc5edd58633c6d37298d6e8b4240b534141">Merge pull request #5 from ns-matrix/fix/public-website-dynamic-content</a></p></div>
 <p align="center"><a href="https://github.com/ns-matrix/karma-fire-protection0">VIEW PROJECT &nbsp; ↗</a></p>
 </td></tr>
 <tr><td bgcolor="#E65EAA" height="3"></td></tr>
