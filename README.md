@@ -60,8 +60,8 @@ The newest eligible public repository, selected automatically from GitHub metada
 <p align="center">Backup</p>
 
 <hr/>
-<p align="center"><b>LANGUAGE</b> &nbsp; HTML &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-11-25 &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; 2026-11-26</p>
-<div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/karma-fire-protection0/commit/02847cc5edd58633c6d37298d6e8b4240b534141">Merge pull request #5 from ns-matrix/fix/public-website-dynamic-content</a></p></div>
+<p align="center"><b>LANGUAGE</b> &nbsp; HTML &nbsp;&nbsp; <b>CREATED</b> &nbsp; 2026-11-25 &nbsp;&nbsp; <b>LAST COMMIT</b> &nbsp; 2026-11-27</p>
+<div align="center"><p><b>LATEST COMMIT</b><br/><a href="https://github.com/ns-matrix/karma-fire-protection0/commit/5ad543184af3c38d5d5dc2e1bb5210b0eee22401">Merge pull request #14 from ns-matrix/feat/karma-complete-website-admin-ui</a></p></div>
 <p align="center"><a href="https://github.com/ns-matrix/karma-fire-protection0">VIEW PROJECT &nbsp; ↗</a></p>
 </td></tr>
 <tr><td bgcolor="#E65EAA" height="3"></td></tr>
